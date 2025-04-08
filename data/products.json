@@ -132,5 +132,15 @@
         "link": "https://bigbluebutton.org/"
       }
     ]
-  }
+  },  {
+    "name": "Linkdin",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Qabilah",
+        "country_code": "SA",
+        "link": "https://qabilah.com/"
+      }
+    ]
+  },
 ]
