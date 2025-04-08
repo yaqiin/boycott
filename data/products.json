@@ -7,6 +7,38 @@
         "name": "GIMP",
         "country_code": "XX",
         "link": "https://www.gimp.org/"
+      },
+      {
+        "name": "Affinity Photo",
+        "country_code": "UK",
+        "link": "https://affinity.serif.com/en-gb/photo/"
+      }
+    ]
+  },
+  {
+    "name": "Google Workspace",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "LARK Suite",
+        "country_code": "CN",
+        "link": "https://www.larksuite.com/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Illustrator",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Inkscape",
+        "country_code": "XX",
+        "link": "https://inkscape.org/"
+      },
+      {
+        "name": "Affinity Designer",
+        "country_code": "UK",
+        "link": "https://affinity.serif.com/en-gb/designer/"
       }
     ]
   },
@@ -34,6 +66,11 @@
         "name": "LibreOffice",
         "country_code": "DE",
         "link": "https://www.libreoffice.org/"
+      },
+      {
+        "name": "WPS Office",
+        "country_code": "CN",
+        "link": "https://www.wps.com/"
       },
       {
         "name": "OnlyOffice",
@@ -125,6 +162,34 @@
         "name": "Drupal",
         "country_code": "XX",
         "link": "https://drupal.org/project/drupal/"
+      }
+    ]
+  },
+  
+  {
+    "name": "Fiverr",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Khamsat",
+        "country_code": "UK",
+        "link": "https://www.khamsat.com/"
+      }
+    ]
+  },
+  {
+    "name": "AWS",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "OVH",
+        "country_code": "FR",
+        "link": "https://www.ovh.com/"
+      },
+      {
+        "name": "Hetzner",
+        "country_code": "DE",
+        "link": "https://www.hetzner.com/"
       }
     ]
   },
