@@ -27,4 +27,25 @@ npm run dev
 - React
 - shadcn-ui
 - Tailwind CSS
-- Supabase
+- GitHub Actions
+
+## Contributions Guidelines
+
+We welcome contributions to our project!
+
+### What you can contribute to
+- Adding new products to boycott
+- Bug fixes
+- New features
+- Code enhancements
+- Documentation improvements
+
+### How to Contribute
+1. Fork the repository to your own GitHub account.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your changes to your forked repository.
+5. Open a pull request to the main repository, describing your changes and why they should be merged.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
