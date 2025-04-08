@@ -76,6 +76,32 @@
     ]
   },
   {
+    "name": "Microsoft Windows",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Ubuntu",
+        "country_code": "XX",
+        "link": "https://ubuntu.com/download/"
+      },
+      {
+        "name": "Linux Mint",
+        "country_code": "XX",
+        "link": "https://linuxmint.com/"
+      },
+      {
+        "name": "Fedora",
+        "country_code": "XX",
+        "link": "https://fedoraproject.org/"
+      },
+      {
+        "name": "Debian",
+        "country_code": "XX",
+        "link": "https://debian.org/"
+      }
+    ]
+  },
+  {
     "name": "Wix",
     "country_code": "IL",
     "alternatives": [
