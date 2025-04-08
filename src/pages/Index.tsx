@@ -1,12 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Header from "@/components/Header";
+import ProductList from "@/components/ProductList";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Index = () => {
+  const { t, isRTL } = useLanguage();
+  
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className={isRTL ? 'rtl' : 'ltr'}>
+      <Header />
+      <main className="yaqiin-container py-8 animate-fade-in">
+        <div className="max-w-2xl mx-auto mb-10 text-center">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-yaqiin-800">
+            {t('siteName')}
+          </h1>
+          <p className="text-lg text-yaqiin-600">
+            {t('introText')}
+          </p>
+        </div>
+        <ProductList />
+      </main>
     </div>
   );
 };
