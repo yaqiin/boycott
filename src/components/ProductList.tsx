@@ -70,7 +70,7 @@ const ProductList = () => {
         <ProductSearch onSearch={handleSearch} />
       </div>
 
-      {/* مكون جديد لعرض عدد المنتجات */}
+      
       <div className="mb-6 text-right text-slate-700 mt-6">
         <p>
           {t("عدد المنتجات التي تظهر هو")}: <span className="font-bold">{filteredProducts.length}</span>

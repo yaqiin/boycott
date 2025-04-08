@@ -3,7 +3,11 @@
     "name": "Adobe Photoshop",
     "country_code": "US",
     "alternatives": [
-      {"name": "GIMP", "country_code": "CA", "link": "https://www.gimp.org/"}
+      {
+        "name": "GIMP", 
+        "country_code": "CA", 
+        "link": "https://www.gimp.org/"
+      }
     ]
   },
   {
