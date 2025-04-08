@@ -1,15 +1,15 @@
 
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Product } from "@/types";
+import { ProductUI } from "@/types";
 import { fetchProducts } from "@/services/dataService";
 import ProductCard from "./ProductCard";
 import ProductSearch from "./ProductSearch";
 
 const ProductList = () => {
   const { t } = useLanguage();
-  const [products, setProducts] = useState<Product[]>([]);
-  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
+  const [products, setProducts] = useState<ProductUI[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<ProductUI[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -52,7 +52,7 @@ const ProductList = () => {
   if (isLoading) {
     return (
       <div className="flex justify-center items-center py-20">
-        <div className="animate-pulse text-yaqiin-600 text-xl">{t('loading')}</div>
+        <div className="animate-pulse text-slate-600 text-xl">{t('loading')}</div>
       </div>
     );
   }
