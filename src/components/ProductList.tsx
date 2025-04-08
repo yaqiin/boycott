@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ProductUI } from "@/types";
@@ -22,7 +21,7 @@ const ProductList = () => {
         setFilteredProducts(data);
       } catch (err) {
         console.error("Error fetching products:", err);
-        setError(t('error'));
+        setError(t("error"));
       } finally {
         setIsLoading(false);
       }
@@ -45,14 +44,14 @@ const ProductList = () => {
           alt.name.toLowerCase().includes(searchTermLower)
         )
     );
-    
+
     setFilteredProducts(filtered);
   };
 
   if (isLoading) {
     return (
       <div className="flex justify-center items-center py-20">
-        <div className="animate-pulse text-slate-600 text-xl">{t('loading')}</div>
+        <div className="animate-pulse text-slate-600 text-xl">{t("loading")}</div>
       </div>
     );
   }
@@ -70,7 +69,14 @@ const ProductList = () => {
       <div className="mb-8">
         <ProductSearch onSearch={handleSearch} />
       </div>
-      
+
+      {/* مكون جديد لعرض عدد المنتجات */}
+      <div className="mb-6 text-right text-slate-700 mt-6">
+        <p>
+          {t("عدد المنتجات التي تظهر هو")}: <span className="font-bold">{filteredProducts.length}</span>
+        </p>
+      </div>
+
       {filteredProducts.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProducts.map((product, index) => (
@@ -79,7 +85,8 @@ const ProductList = () => {
         </div>
       ) : (
         <div className="text-center py-10 text-muted-foreground">
-          {t('noAlternatives')}
+            {t("noAlternatives")}
+            <a target="_blank" href="https://github.com/yaqiin/yaqiin-boycott"> Github</a>
         </div>
       )}
     </div>

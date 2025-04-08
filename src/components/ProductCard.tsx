@@ -31,7 +31,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             ))}
           </ul>
         ) : (
-          <p className="text-muted-foreground">{t('noAlternatives')}</p>
+          <p className="text-muted-foreground">{t('noAlternatives')}<a target="_blank" href="https://github.com/yaqiin/yaqiin-boycott"> Github</a></p>
         )}
       </CardContent>
     </Card>
