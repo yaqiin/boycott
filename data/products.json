@@ -92,6 +92,11 @@
         "name": "Jira",
         "country_code": "AU",
         "link": "https://jira.atlassian.com/"
+      },
+      {
+        "name": "Plane",
+        "country_code": "IN",
+        "link": "https://plane.so/"
       }
     ]
   },
