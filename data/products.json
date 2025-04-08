@@ -246,5 +246,16 @@
         "link": "https://bigbluebutton.org/"
       }
     ]
+  },
+  {
+    "name": "ChatGPT",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "DeepSeek",
+        "country_code": "CN",
+        "link": "https://www.deepseek.com/"
+      }
+    ]
   }
 ]
