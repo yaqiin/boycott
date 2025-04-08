@@ -3,193 +3,526 @@
     "name": "Adobe Photoshop",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "GIMP",
-        "country_code": "XX",
-        "link": "https://www.gimp.org/"
-      },
-      {
-        "name": "Affinity Photo",
-        "country_code": "GB",
-        "link": "https://affinity.serif.com/en-gb/photo/"
-      }
+      {"name": "GIMP", "country_code": "CA", "link": "https://www.gimp.org/"}
     ]
   },
   {
     "name": "Google Workspace",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "LARK Suite",
-        "country_code": "CN",
-        "link": "https://www.larksuite.com/"
-      },
-      {
-        "name": "Zoho",
-        "country_code": "IN",
-        "link": "https://www.zoho.com/"
-      }
+      {"name": "LARK Suite", "country_code": "CN", "link": "https://www.larksuite.com/"},
+      {"name": "Zoho", "country_code": "IN", "link": "https://www.zoho.com/"}
     ]
   },
   {
     "name": "Adobe Illustrator",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "Inkscape",
-        "country_code": "XX",
-        "link": "https://inkscape.org/"
-      },
-      {
-        "name": "Affinity Designer",
-        "country_code": "GB",
-        "link": "https://affinity.serif.com/en-gb/designer/"
-      }
+      {"name": "Inkscape", "country_code": "CA", "link": "https://inkscape.org/"}
     ]
   },
   {
     "name": "GitHub",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "GitLab",
-        "country_code": "UA",
-        "link": "https://gitlab.com/"
-      },
-      {
-        "name": "Bitbucket",
-        "country_code": "AU",
-        "link": "https://bitbucket.org/"
-      }
+      {"name": "GitLab", "country_code": "UA", "link": "https://gitlab.com/"},
+      {"name": "Bitbucket", "country_code": "AU", "link": "https://bitbucket.org/"}
     ]
   },
   {
     "name": "Microsoft Office",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "LibreOffice",
-        "country_code": "DE",
-        "link": "https://www.libreoffice.org/"
-      },
-      {
-        "name": "WPS Office",
-        "country_code": "CN",
-        "link": "https://www.wps.com/"
-      },
-      {
-        "name": "OnlyOffice",
-        "country_code": "LV",
-        "link": "https://www.onlyoffice.com/"
-      }
+      {"name": "LibreOffice", "country_code": "DE", "link": "https://www.libreoffice.org/"},
+      {"name": "WPS Office", "country_code": "CN", "link": "https://www.wps.com/"},
+      {"name": "OnlyOffice", "country_code": "LV", "link": "https://www.onlyoffice.com/"}
     ]
   },
   {
     "name": "Monday.com",
     "country_code": "IL",
     "alternatives": [
-      {
-        "name": "Jira",
-        "country_code": "AU",
-        "link": "https://jira.atlassian.com/"
-      }
+      {"name": "Jira", "country_code": "AU", "link": "https://jira.atlassian.com/"}
     ]
   },
   {
     "name": "Zappier",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "N8N",
-        "country_code": "XX",
-        "link": "https://n8n.io/"
-      }
+      {"name": "N8N", "country_code": "DE", "link": "https://n8n.io/"}
     ]
   },
   {
     "name": "Salesforce",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "SAP",
-        "country_code": "DE",
-        "link": "https://sap.com/"
-      },
-      {
-        "name": "Odoo",
-        "country_code": "XX",
-        "link": "https://odoo.com/"
-      },
-      {
-        "name": "ERPNext",
-        "country_code": "PK",
-        "link": "https://frappe.io/erpnext"
-      }
-      
+      {"name": "SAP", "country_code": "DE", "link": "https://sap.com/"},
+      {"name": "Odoo", "country_code": "BE", "link": "https://odoo.com/"},
+      {"name": "ERPNext", "country_code": "PK", "link": "https://frappe.io/erpnext"}
     ]
   },
   {
     "name": "Cisco",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "Huawei",
-        "country_code": "CN",
-        "link": "https://www.huawei.com/en/"
-      }
+      {"name": "Huawei", "country_code": "CN", "link": "https://www.huawei.com/en/"}
     ]
   },
   {
     "name": "Linkedin",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "Qabilah",
-        "country_code": "SA",
-        "link": "https://qabilah.com/"
-      }
+      {"name": "Qabilah", "country_code": "SA", "link": "https://qabilah.com/"}
     ]
   },
   {
     "name": "Slack",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "Rocket.Chat",
-        "country_code": "XX",
-        "link": "https://rocket.chat/"
-      }
+      {"name": "Rocket.Chat", "country_code": "BR", "link": "https://rocket.chat/"}
     ]
   },
   {
     "name": "Microsoft Windows",
     "country_code": "US",
     "alternatives": [
-      {
-        "name": "Ubuntu",
-        "country_code": "XX",
-        "link": "https://ubuntu.com/download/"
-      },
-      {
-        "name": "Linux Mint",
-        "country_code": "XX",
-        "link": "https://linuxmint.com/"
-      },
-      {
-        "name": "Fedora",
-        "country_code": "XX",
-        "link": "https://fedoraproject.org/"
-      },
-      {
-        "name": "Debian",
-        "country_code": "XX",
-        "link": "https://debian.org/"
-      }
+      {"name": "Ubuntu", "country_code": "IM", "link": "https://ubuntu.com/download/"},
+      {"name": "Linux Mint", "country_code": "IE", "link": "https://linuxmint.com/"},
+      {"name": "Fedora", "country_code": "US", "link": "https://fedoraproject.org/"},
+      {"name": "Debian", "country_code": "CH", "link": "https://debian.org/"}
     ]
   },
   {
     "name": "Wix",
     "country_code": "IL",
+    "alternatives": [
+      {"name": "Drupal", "country_code": "BE", "link": "https://drupal.org/project/drupal/"}
+    ]
+  },
+  {
+    "name": "Fiverr",
+    "country_code": "IL",
+    "alternatives": [
+      {"name": "Khamsat", "country_code": "GB", "link": "https://www.khamsat.com/"}
+    ]
+  },
+  {
+    "name": "AWS",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "OVH", "country_code": "FR", "link": "https://www.ovh.com/"},
+      {"name": "Hetzner", "country_code": "DE", "link": "https://www.hetzner.com/"}
+    ]
+  },
+  {
+    "name": "Zoom",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Jitsi Meet", "country_code": "DE", "link": "https://jitsi.org/"},
+      {"name": "BigBlueButton", "country_code": "CA", "link": "https://bigbluebutton.org/"}
+    ]
+  },
+  {
+    "name": "ChatGPT",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "DeepSeek", "country_code": "CN", "link": "https://www.deepseek.com/"}
+    ]
+  },
+  {
+    "name": "Autodesk AutoCAD",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "FreeCAD", "country_code": "BR", "link": "https://www.freecadweb.org/"},
+      {"name": "BricsCAD", "country_code": "BE", "link": "https://www.bricsys.com/"}
+    ]
+  },
+  {
+    "name": "Dropbox",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Nextcloud", "country_code": "DE", "link": "https://nextcloud.com/"},
+      {"name": "pCloud", "country_code": "CH", "link": "https://www.pcloud.com/"},
+      {"name": "Mega", "country_code": "NZ", "link": "https://mega.nz/"}
+    ]
+  },
+  {
+    "name": "Trello",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "ClickUp", "country_code": "US", "link": "https://clickup.com/"},
+      {"name": "OpenProject", "country_code": "DE", "link": "https://www.openproject.org/"}
+    ]
+  },
+  {
+    "name": "Skype",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Signal", "country_code": "US", "link": "https://signal.org/"},
+      {"name": "Telegram", "country_code": "AE/RU", "link": "https://telegram.org/"}
+    ]
+  },
+  {
+    "name": "QuickBooks",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "GnuCash", "country_code": "CA", "link": "https://www.gnucash.org/"},
+      {"name": "Wave", "country_code": "CA", "link": "https://www.waveapps.com/"},
+      {"name": "Akaunting", "country_code": "TR", "link": "https://akaunting.com/"}
+    ]
+  },
+  {
+    "name": "Notion",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Obsidian", "country_code": "CA", "link": "https://obsidian.md/"},
+      {"name": "Joplin", "country_code": "FR", "link": "https://joplinapp.org/"}
+    ]
+  },
+  {
+    "name": "PayPal",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Stripe", "country_code": "IE", "link": "https://stripe.com/"},
+      {"name": "Wise", "country_code": "GB", "link": "https://wise.com/"}
+    ]
+  },
+  {
+    "name": "Unity",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Godot", "country_code": "AR", "link": "https://godotengine.org/"},
+      {"name": "CryEngine", "country_code": "DE", "link": "https://www.cryengine.com/"}
+    ]
+  },
+  {
+    "name": "Check Point Software",
+    "country_code": "IL",
+    "alternatives": [
+      {"name": "Kaspersky", "country_code": "RU", "link": "https://www.kaspersky.com/"}
+    ]
+  },
+  {
+    "name": "Elementor",
+    "country_code": "IL",
+    "alternatives": []
+  },
+  {
+    "name": "Viber",
+    "country_code": "IL",
+    "alternatives": [
+      {"name": "Telegram", "country_code": "RU", "link": "https://telegram.org/"}
+    ]
+  },
+  {
+    "name": "Adobe Premiere Pro",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "DaVinci Resolve", "country_code": "AU", "link": "https://www.blackmagicdesign.com/products/davinciresolve/"}
+    ]
+  },
+  {
+    "name": "Adobe After Effects",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Fusion", "country_code": "AU", "link": "https://www.blackmagicdesign.com/products/fusion/"}
+    ]
+  },
+  {
+    "name": "Adobe Audition",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Audacity", "country_code": "UK", "link": "https://www.audacityteam.org/"},
+      {"name": "Reaper", "country_code": "US", "link": "https://www.reaper.fm/"},
+      {"name": "Ardour", "country_code": "CA", "link": "https://ardour.org/"}
+    ]
+  },
+  {
+    "name": "Adobe InDesign",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Scribus", "country_code": "FR", "link": "https://www.scribus.net/"}
+    ]
+  },
+  {
+    "name": "Adobe Lightroom",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Darktable", "country_code": "FR", "link": "https://www.darktable.org/"},
+      {"name": "RawTherapee", "country_code": "HU", "link": "https://rawtherapee.com/"},
+      {"name": "Capture One", "country_code": "DK", "link": "https://www.captureone.com/"}
+    ]
+  },
+  {
+    "name": "Adobe Animate",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Toon Boom Harmony", "country_code": "CA", "link": "https://www.toonboom.com/"},
+      {"name": "OpenToonz", "country_code": "JP", "link": "https://opentoonz.github.io/"},
+      {"name": "Synfig Studio", "country_code": "RU", "link": "https://www.synfig.org/"}
+    ]
+  },
+  {
+    "name": "Adobe Dreamweaver",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Pinegrow", "country_code": "SI", "link": "https://pinegrow.com/"}
+    ]
+  },
+  {
+    "name": "Adobe Acrobat Pro",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "LibreOffice Draw", "country_code": "DE", "link": "https://www.libreoffice.org/discover/draw/"},
+      {"name": "Sejda PDF", "country_code": "NL", "link": "https://www.sejda.com/"}
+    ]
+  },
+  {
+    "name": "Microsoft Excel",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "LibreOffice Calc", "country_code": "DE", "link": "https://www.libreoffice.org/discover/calc/"},
+      {"name": "Zoho Sheet", "country_code": "IN", "link": "https://www.zoho.com/sheet/"}
+    ]
+  },
+  {
+    "name": "Microsoft Word",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "LibreOffice Writer", "country_code": "DE", "link": "https://www.libreoffice.org/discover/writer/"},
+      {"name": "WPS Writer", "country_code": "CN", "link": "https://www.wps.com/office/writer/"}
+    ]
+  },
+  {
+    "name": "Microsoft PowerPoint",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "LibreOffice Impress", "country_code": "DE", "link": "https://www.libreoffice.org/discover/impress/"},
+      {"name": "Prezi", "country_code": "HU", "link": "https://prezi.com/"}
+    ]
+  },
+  {
+    "name": "Microsoft Access",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Kexi", "country_code": "PL", "link": "https://calligra.org/kexi/"}
+    ]
+  },
+  {
+    "name": "Microsoft Visio",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "yEd Graph Editor", "country_code": "DE", "link": "https://www.yworks.com/products/yed"}
+    ]
+  },
+  {
+    "name": "Microsoft Project",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "GanttProject", "country_code": "RU", "link": "https://www.ganttproject.biz/"},
+      {"name": "ProjectLibre", "country_code": "FR", "link": "https://www.projectlibre.com/"}
+    ]
+  },
+  {
+    "name": "Microsoft Defender",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Kaspersky Anti-Virus", "country_code": "RU", "link": "https://www.kaspersky.com/anti-virus"},
+      {"name": "Bitdefender", "country_code": "RO", "link": "https://www.bitdefender.com/"}
+    ]
+  },
+  {
+    "name": "Microsoft Dynamics 365",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Odoo", "country_code": "BE", "link": "https://www.odoo.com/"},
+      {"name": "ERPNext", "country_code": "PK", "link": "https://erpnext.com/"},
+      {"name": "SAP Business One", "country_code": "DE", "link": "https://www.sap.com/products/erp/business-one.html"}
+    ]
+  },
+  {
+    "name": "Microsoft Publisher",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Scribus", "country_code": "FR", "link": "https://www.scribus.net/"},
+      {"name": "Canva", "country_code": "AU", "link": "https://www.canva.com/"}
+    ]
+  },
+  {
+    "name": "Microsoft Remote Desktop",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "AnyDesk", "country_code": "DE", "link": "https://anydesk.com/"},
+      {"name": "TeamViewer", "country_code": "DE", "link": "https://www.teamviewer.com/"}
+    ]
+  },
+  {
+    "name": "Google Chrome",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Vivaldi", "country_code": "NO", "link": "https://vivaldi.com/"}
+    ]
+  },
+  {
+    "name": "Google Drive",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Nextcloud", "country_code": "DE", "link": "https://nextcloud.com/"},
+      {"name": "pCloud", "country_code": "CH", "link": "https://www.pcloud.com/"},
+      {"name": "Mega", "country_code": "NZ", "link": "https://mega.nz/"}
+    ]
+  },
+  {
+    "name": "Google Maps",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "HERE WeGo", "country_code": "NL", "link": "https://wego.here.com/"}
+    ]
+  },
+  {
+    "name": "Google Translate",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "DeepL", "country_code": "DE", "link": "https://www.deepl.com/"},
+      {"name": "Yandex Translate", "country_code": "RU", "link": "https://translate.yandex.com/"}
+    ]
+  },
+  {
+    "name": "Google Earth",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "QGIS", "country_code": "CH", "link": "https://www.qgis.org/"}
+    ]
+  },
+  {
+    "name": "Google Scholar",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "CORE", "country_code": "GB", "link": "https://core.ac.uk/"}
+    ]
+  },
+  {
+    "name": "Google Analytics",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Fathom", "country_code": "CA", "link": "https://usefathom.com/"},
+      {"name": "Plausible", "country_code": "EE", "link": "https://plausible.io/"}
+    ]
+  },
+  {
+    "name": "Google Ads",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Yandex Direct", "country_code": "RU", "link": "https://direct.yandex.com/"}
+    ]
+  },
+  {
+    "name": "Google Meet",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Jitsi Meet", "country_code": "DE", "link": "https://jitsi.org/"},
+      {"name": "BigBlueButton", "country_code": "CA", "link": "https://bigbluebutton.org/"},
+      {"name": "Whereby", "country_code": "NO", "link": "https://whereby.com/"}
+    ]
+  },
+  {
+    "name": "Google Cloud Platform",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Hetzner Cloud", "country_code": "DE", "link": "https://www.hetzner.com/cloud"}
+    ]
+  },
+  {
+    "name": "Google Play Store",
+    "country_code": "US",
+    "alternatives": [
+      {"name": "Aptoide", "country_code": "PT", "link": "https://www.aptoide.com/"}
+    ]
+  },
+  {
+    "name": "Check Point Software",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Bitdefender",
+        "country_code": "RO",
+        "link": "https://www.bitdefender.com/"
+      },
+      {
+        "name": "Kaspersky",
+        "country_code": "RU",
+        "link": "https://www.kaspersky.com/"
+      }
+    ]
+  },
+  {
+    "name": "CyberArk",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "BeyondTrust",
+        "country_code": "US",
+        "link": "https://www.beyondtrust.com/"
+      },
+      {
+        "name": "Centrify",
+        "country_code": "US",
+        "link": "https://www.centrify.com/"
+      }
+    ]
+  },
+  {
+    "name": "Mobileye",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Waymo",
+        "country_code": "US",
+        "link": "https://waymo.com/"
+      },
+      {
+        "name": "Aptiv",
+        "country_code": "IE",
+        "link": "https://www.aptiv.com/"
+      }
+    ]
+  },
+  {
+    "name": "NICE Systems",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Freshdesk",
+        "country_code": "IN",
+        "link": "https://www.freshdesk.com/"
+      }
+    ]
+  },
+  {
+    "name": "Amdocs",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Nokia Networks",
+        "country_code": "FI",
+        "link": "https://www.nokia.com/networks/"
+      }
+    ]
+  },
+  {
+    "name": "Playtika",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Supercell",
+        "country_code": "FI",
+        "link": "https://supercell.com/"
+      }
+    ]
+  },
+  {
+    "name": "WordPress",
+    "country_code": "US",
     "alternatives": [
       {
         "name": "Joomla",
@@ -203,59 +536,102 @@
       }
     ]
   },
-  
   {
-    "name": "Fiverr",
+    "name": "Figma",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Penpot",
+        "country_code": "ES",
+        "link": "https://penpot.app/"
+      },
+      {
+        "name": "Lunacy",
+        "country_code": "UA",
+        "link": "https://icons8.com/lunacy"
+      },
+      {
+        "name": "Gravit Designer",
+        "country_code": "DE",
+        "link": "https://www.designer.io/en/"
+      }
+    ]
+  },
+  {
+    "name": "Visual Studio Code",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "VSCodium",
+        "country_code": "US",
+        "link": "https://vscodium.com/"
+      }
+    ]
+  },
+  {
+  "name": "Facebook",
+  "country_code": "US",
+  "alternatives": [
+    {
+      "name": "Mastodon",
+      "country_code": "DE",
+      "link": "https://mastodon.social/"
+    },
+    {
+      "name": "VK",
+      "country_code": "RU",
+      "link": "https://vk.com/"
+    }
+    ]
+  },
+  {
+    "name": "Adobe Acrobat Reader",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Okular",
+        "country_code": "DE",
+        "link": "https://okular.kde.org/"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft OneDrive",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Seafile",
+        "country_code": "CN",
+        "link": "https://www.seafile.com/"
+      }
+    ]
+  },
+  {
+    "name": "Taboola",
     "country_code": "IL",
     "alternatives": [
-      {
-        "name": "Khamsat",
-        "country_code": "GB",
-        "link": "https://www.khamsat.com/"
-      }
+
     ]
   },
   {
-    "name": "AWS",
-    "country_code": "US",
+    "name": "IronSource",
+    "country_code": "IL",
     "alternatives": [
-      {
-        "name": "OVH",
-        "country_code": "FR",
-        "link": "https://www.ovh.com/"
-      },
-      {
-        "name": "Hetzner",
-        "country_code": "DE",
-        "link": "https://www.hetzner.com/"
-      }
+
     ]
   },
   {
-    "name": "Zoom",
-    "country_code": "US",
+    "name": "Lightricks",
+    "country_code": "IL",
     "alternatives": [
-      {
-        "name": "Jitsi Meet",
-        "country_code": "DE",
-        "link": "https://jitsi.org/"
-      },
-      {
-        "name": "BigBlueButton",
-        "country_code": "CA",
-        "link": "https://bigbluebutton.org/"
-      }
+
     ]
   },
   {
-    "name": "ChatGPT",
-    "country_code": "US",
+    "name": "Riskified",
+    "country_code": "IL",
     "alternatives": [
-      {
-        "name": "DeepSeek",
-        "country_code": "CN",
-        "link": "https://www.deepseek.com/"
-      }
+
     ]
   }
 ]
