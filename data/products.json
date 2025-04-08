@@ -10,7 +10,7 @@
       },
       {
         "name": "Affinity Photo",
-        "country_code": "UK",
+        "country_code": "GB",
         "link": "https://affinity.serif.com/en-gb/photo/"
       }
     ]
@@ -42,7 +42,7 @@
       },
       {
         "name": "Affinity Designer",
-        "country_code": "UK",
+        "country_code": "GB",
         "link": "https://affinity.serif.com/en-gb/designer/"
       }
     ]
@@ -210,7 +210,7 @@
     "alternatives": [
       {
         "name": "Khamsat",
-        "country_code": "UK",
+        "country_code": "GB",
         "link": "https://www.khamsat.com/"
       }
     ]
