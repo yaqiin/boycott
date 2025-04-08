@@ -257,5 +257,16 @@
         "link": "https://www.deepseek.com/"
       }
     ]
+  },
+  {
+    "name": "Firebase",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Supabase",
+        "country_code": "SG",
+        "link": "https://supabase.com/"
+      }
+    ]
   }
 ]
