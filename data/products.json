@@ -12,9 +12,15 @@
         "name": "Photopea",
         "country_code": "CZ",
         "link": "https://www.photopea.com/"
+      },
+      {
+        "name": "Affinity Photo",
+        "country_code": "GB",
+        "link": "https://affinity.serif.com/en-gb/photo/"
       }
     ]
-  },
+  }
+  ,
   {
     "name": "GitHub",
     "country_code": "US",
