@@ -33,19 +33,19 @@ npm run dev
 
 We welcome contributions to our project!
 
-### What you can contribute to
-- Adding new products to boycott
-- Bug fixes
+### Ways to Contribute:
+- Add new products to boycott by editing [data/products.json](data/products.json)
+- Fix bugs
 - New features
 - Code enhancements
 - Documentation improvements
 
-### How to Contribute
-1. Fork the repository to your own GitHub account.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with clear messages.
-4. Push your changes to your forked repository.
-5. Open a pull request to the main repository, describing your changes and why they should be merged.
+### Steps to Contribute:
+1. Fork the repo to your own GitHub account.
+2. Create a new branch for your changes.
+3. Make changes and commit them with clear messages.
+4. Push changes to your forked repository.
+5. Open a pull request with a description of your changes.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

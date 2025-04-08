@@ -28,6 +28,7 @@ const translations = {
     'pageNotFound': 'عذرًا! الصفحة غير موجودة',
     'backHome': 'العودة إلى الصفحة الرئيسية',
     'introText': 'منصة تساعدك على اكتشاف بدائل أخلاقية للمنتجات التقنية الأمريكية والإسرائيلية.',
+    'copyright': 'يقين للمقاطعة. جميع الحقوق محفوظة.'
   },
   en: {
     'siteName': 'Yaqiin Boycott',
@@ -43,6 +44,7 @@ const translations = {
     'pageNotFound': 'Oops! Page not found',
     'backHome': 'Back Home',
     'introText': 'A platform to help you discover ethical alternatives to Israeli and US tech products.',
+    'copyright': 'Yaqiin Boycott. All rights reserved.'
   }
 };
 
