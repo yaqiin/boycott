@@ -5,13 +5,12 @@ export interface Country {
 }
 
 export interface Alternative {
-  id: number;
   name: string;
   country_code: string;
+  link: string;
 }
 
 export interface Product {
-  id: number;
   name: string;
   country_code: string;
   alternatives: Alternative[];
@@ -19,16 +18,13 @@ export interface Product {
 
 // Transformed types for UI display
 export interface ProductUI {
-  id: number;
   name: string;
-  countryOfOrigin: "USA" | "Israel";
-  countryCode: "US" | "IL";
+  country: Country;
   alternatives: AlternativeUI[];
 }
 
 export interface AlternativeUI {
-  id: number;
   name: string;
-  countryOfOrigin: string;
-  countryCode: string;
+  country: Country;
+  link: string;
 }

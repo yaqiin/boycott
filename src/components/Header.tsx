@@ -8,8 +8,16 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-10 bg-white/80 backdrop-blur-sm shadow-sm py-4">
       <div className="yaqiin-container flex items-center justify-between">
-        <div className={`text-2xl font-bold text-slate-700 ${isRTL ? 'ml-auto' : 'mr-auto'}`}>
-          {t('siteName')}
+        <div className={`flex items-center gap-4 ${isRTL ? 'ml-auto' : 'mr-auto'}`}>
+          <img
+              src="/logo.png"
+              alt="Site logo"
+              className="w-12 h-12 md:w-16 md:h-16"
+          />
+          <div>
+            <h1 className="text-xl md:text-2xl font-bold text-slate-700">{t('siteName')}</h1>
+            <p className="text-mosque-accent text-sm md:text-base">{t('siteSlogan')}</p>
+          </div>
         </div>
         <div className={isRTL ? 'mr-auto' : 'ml-auto'}>
           <LanguageToggle />

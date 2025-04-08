@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Adobe Photoshop",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "GIMP",
+        "country_code": "XX",
+        "link": "https://www.gimp.org/"
+      }
+    ]
+  },
+  {
+    "name": "GitHub",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "GitLab",
+        "country_code": "UA",
+        "link": "https://gitlab.com/"
+      },
+      {
+        "name": "Bitbucket",
+        "country_code": "AU",
+        "link": "https://bitbucket.org/"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Office",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "LibreOffice",
+        "country_code": "DE",
+        "link": "https://www.libreoffice.org/"
+      },
+      {
+        "name": "OnlyOffice",
+        "country_code": "LV",
+        "link": "https://www.onlyoffice.com/"
+      }
+    ]
+  },
+  {
+    "name": "Monday.com",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Jira",
+        "country_code": "AU",
+        "link": "https://jira.atlassian.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cisco",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Huawei",
+        "country_code": "CN",
+        "link": "https://www.huawei.com/en/"
+      }
+    ]
+  },
+  {
+    "name": "Slack",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Rocket.Chat",
+        "country_code": "XX",
+        "link": "https://rocket.chat/"
+      }
+    ]
+  },
+  {
+    "name": "Wix",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Joomla",
+        "country_code": "XX",
+        "link": "https://www.joomla.org/"
+      },
+      {
+        "name": "Drupal",
+        "country_code": "XX",
+        "link": "https://drupal.org/project/drupal/"
+      }
+    ]
+  },
+  {
+    "name": "Zoom",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Jitsi Meet",
+        "country_code": "DE",
+        "link": "https://jitsi.org/"
+      },
+      {
+        "name": "BigBlueButton",
+        "country_code": "CA",
+        "link": "https://bigbluebutton.org/"
+      }
+    ]
+  }
+]

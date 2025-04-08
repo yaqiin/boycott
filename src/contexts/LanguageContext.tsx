@@ -15,7 +15,8 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 // Translations object
 const translations = {
   ar: {
-    'siteName': 'يقين بويكوت',
+    'siteName': 'يقين للمقاطعة',
+    'siteSlogan': 'مقاطعة أخلاقية، نصرة لأخوتنا',
     'toggleLanguage': 'English',
     'searchPlaceholder': 'ابحث عن منتج',
     'productName': 'اسم المنتج',
@@ -24,12 +25,13 @@ const translations = {
     'noAlternatives': 'لا توجد بدائل متاحة حاليًا',
     'loading': 'جاري التحميل...',
     'error': 'حدث خطأ في تحميل البيانات',
+    'pageNotFound': 'عذرًا! الصفحة غير موجودة',
+    'backHome': 'العودة إلى الصفحة الرئيسية',
     'introText': 'منصة تساعدك على اكتشاف بدائل أخلاقية للمنتجات التقنية الأمريكية والإسرائيلية.',
-    'usa': 'الولايات المتحدة',
-    'israel': 'إسرائيل',
   },
   en: {
     'siteName': 'Yaqiin Boycott',
+    'siteSlogan': 'Ethical Boycott, Supporting Our Brothers',
     'toggleLanguage': 'العربية',
     'searchPlaceholder': 'Search for a product',
     'productName': 'Product Name',
@@ -38,9 +40,9 @@ const translations = {
     'noAlternatives': 'No alternatives available yet',
     'loading': 'Loading...',
     'error': 'Error loading data',
-    'introText': 'A platform to help you discover ethical alternatives to US and Israeli tech products.',
-    'usa': 'USA',
-    'israel': 'Israel',
+    'pageNotFound': 'Oops! Page not found',
+    'backHome': 'Back Home',
+    'introText': 'A platform to help you discover ethical alternatives to Israeli and US tech products.',
   }
 };
 
