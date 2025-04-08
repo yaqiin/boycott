@@ -23,6 +23,11 @@
         "name": "LARK Suite",
         "country_code": "CN",
         "link": "https://www.larksuite.com/"
+      },
+      {
+        "name": "Zoho",
+        "country_code": "IN",
+        "link": "https://www.zoho.com/"
       }
     ]
   },
