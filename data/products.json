@@ -5,7 +5,7 @@
     "alternatives": [
       {
         "name": "GIMP",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://www.gimp.org/"
       },
       {
@@ -32,12 +32,23 @@
     ]
   },
   {
+    "name": "Google Forms",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Zoho Forms",
+        "country_code": "IN",
+        "link": "https://www.zoho.com/forms/"
+      }
+    ]
+  },
+  {
     "name": "Adobe Illustrator",
     "country_code": "US",
     "alternatives": [
       {
         "name": "Inkscape",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://inkscape.org/"
       },
       {
@@ -69,18 +80,18 @@
     "alternatives": [
       {
         "name": "LibreOffice",
-        "country_code": "DE",
+        "country_code": "OSS",
         "link": "https://www.libreoffice.org/"
+      },
+      {
+        "name": "OnlyOffice",
+        "country_code": "OSS",
+        "link": "https://www.onlyoffice.com/"
       },
       {
         "name": "WPS Office",
         "country_code": "CN",
         "link": "https://www.wps.com/"
-      },
-      {
-        "name": "OnlyOffice",
-        "country_code": "LV",
-        "link": "https://www.onlyoffice.com/"
       }
     ]
   },
@@ -89,19 +100,19 @@
     "country_code": "IL",
     "alternatives": [
       {
-        "name": "Jira",
-        "country_code": "AU",
-        "link": "https://jira.atlassian.com/"
-      },
-      {
         "name": "Plane",
-        "country_code": "IN",
+        "country_code": "OSS",
         "link": "https://plane.so/"
       },
       {
         "name": "Tuleap",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://tuleap.org/"
+      },
+      {
+        "name": "Jira",
+        "country_code": "AU",
+        "link": "https://jira.atlassian.com/"
       }
     ]
   },
@@ -111,7 +122,7 @@
     "alternatives": [
       {
         "name": "N8N",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://n8n.io/"
       }
     ]
@@ -121,18 +132,13 @@
     "country_code": "US",
     "alternatives": [
       {
-        "name": "SAP",
-        "country_code": "DE",
-        "link": "https://sap.com/"
-      },
-      {
         "name": "Odoo",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://odoo.com/"
       },
       {
         "name": "ERPNext",
-        "country_code": "PK",
+        "country_code": "OSS",
         "link": "https://frappe.io/erpnext"
       }
     ]
@@ -165,8 +171,13 @@
     "alternatives": [
       {
         "name": "Rocket.Chat",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://rocket.chat/"
+      },
+      {
+        "name": "Mattermost",
+        "country_code": "OSS",
+        "link": "https://mattermost.com/"
       }
     ]
   },
@@ -176,22 +187,22 @@
     "alternatives": [
       {
         "name": "Ubuntu",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://ubuntu.com/download/"
       },
       {
         "name": "Linux Mint",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://linuxmint.com/"
       },
       {
         "name": "Fedora",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://fedoraproject.org/"
       },
       {
         "name": "Debian",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://debian.org/"
       }
     ]
@@ -202,12 +213,12 @@
     "alternatives": [
       {
         "name": "Joomla",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://www.joomla.org/"
       },
       {
         "name": "Drupal",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://drupal.org/project/drupal/"
       },
       {
@@ -225,6 +236,17 @@
         "name": "Khamsat",
         "country_code": "GB",
         "link": "https://www.khamsat.com/"
+      }
+    ]
+  },
+  {
+    "name": "Upwork",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Mostaql",
+        "country_code": "GB",
+        "link": "https://mostaql.com/"
       }
     ]
   },
@@ -249,13 +271,18 @@
     "country_code": "US",
     "alternatives": [
       {
+        "name": "Vconnct",
+        "country_code": "EG",
+        "link": "https://vconnct.me/"
+      },
+      {
         "name": "Jitsi Meet",
-        "country_code": "DE",
+        "country_code": "OSS",
         "link": "https://jitsi.org/"
       },
       {
         "name": "BigBlueButton",
-        "country_code": "CA",
+        "country_code": "OSS",
         "link": "https://bigbluebutton.org/"
       }
     ]
@@ -264,6 +291,11 @@
     "name": "ChatGPT",
     "country_code": "US",
     "alternatives": [
+      {
+        "name": "Nojoom.AI",
+        "country_code": "DZ",
+        "link": "https://nojoom.ai/"
+      },
       {
         "name": "DeepSeek",
         "country_code": "CN",
@@ -277,7 +309,7 @@
     "alternatives": [
       {
         "name": "Supabase",
-        "country_code": "SG",
+        "country_code": "OSS",
         "link": "https://supabase.com/"
       }
     ]
@@ -287,14 +319,14 @@
     "country_code": "US",
     "alternatives": [
       {
+        "name": "OpenStack",
+        "country_code": "OSS",
+        "link": "https://www.openstack.org/"
+      },
+      {
         "name": "Alibaba Cloud",
         "country_code": "CN",
         "link": "https://www.alibabacloud.com/"
-      },
-      {
-        "name": "OpenStack",
-        "country_code": "XX",
-        "link": "https://www.openstack.org/"
       },
       {
         "name": "Scaleway",
@@ -311,17 +343,11 @@
         "name": "SEMrush",
         "country_code": "RU",
         "link": "https://www.semrush.com/"
-      }
-    ]
-  },
-  {
-    "name": "Redis",
-    "country_code": "IL",
-    "alternatives": [
+      },
       {
-        "name": "Hazelcast",
-        "country_code": "TR",
-        "link": "https://hazelcast.com/"
+        "name": "Ahrefs",
+        "country_code": "SG",
+        "link": "https://ahrefs.com/"
       }
     ]
   },
@@ -331,22 +357,22 @@
     "alternatives": [
       {
         "name": "Ubuntu",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://ubuntu.com/download/"
       },
       {
         "name": "Linux Mint",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://linuxmint.com/"
       },
       {
         "name": "Fedora",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://fedoraproject.org/"
       },
       {
         "name": "Debian",
-        "country_code": "XX",
+        "country_code": "OSS",
         "link": "https://debian.org/"
       }
     ]
@@ -388,9 +414,52 @@
         "link": "https://refact.ai/"
       },
       {
-        "name": "CodeGeex",
-        "country_code": "CN",
+        "name": "CodeGeeX",
+        "country_code": "OSS",
         "link": "https://codegeex.cn/en-US"
+      }
+    ]
+  },
+  {
+    "name": "Canva",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Namoothaj",
+        "country_code": "AE",
+        "link": "https://www.namoothaj.com/"
+      }
+    ]
+  },
+  {
+    "name": "Viber",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Signal",
+        "country_code": "OSS",
+        "link": "https://signal.org/"
+      },
+      {
+        "name": "Telegram",
+        "country_code": "AE",
+        "link": "https://telegram.org/"
+      }
+    ]
+  },
+  {
+    "name": "Amazon",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "AliExpress",
+        "country_code": "CN",
+        "link": "https://www.aliexpress.com/"
+      },
+      {
+        "name": "Temu",
+        "country_code": "CN",
+        "link": "https://www.temu.com/"
       }
     ]
   }

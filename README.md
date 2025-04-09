@@ -33,19 +33,24 @@ npm run dev
 
 We welcome contributions to our project!
 
-### Ways to Contribute:
+### Ways to Contribute
 - Add new products to boycott by editing [data/products.json](data/products.json)
 - Fix bugs
 - New features
+- Translate website to other languages by editing [languageConfig.ts](src/contexts/languageConfig.ts)
 - Code enhancements
 - Documentation improvements
 
-### Steps to Contribute:
+### Steps to Contribute
 1. Fork the repo to your own GitHub account.
 2. Create a new branch for your changes.
 3. Make changes and commit them with clear messages.
 4. Push changes to your forked repository.
 5. Open a pull request with a description of your changes.
+
+### Report Bugs
+
+If you find any bugs, please report them by creating an issue in the repository. Include as much detail as possible about the bug and how to reproduce it.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
