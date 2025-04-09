@@ -405,6 +405,22 @@
     ]
   },
   {
+    "name": "Tabnine",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Refact",
+        "country_code": "GB",
+        "link": "https://refact.ai/"
+      },
+      {
+        "name": "CodeGeeX",
+        "country_code": "OSS",
+        "link": "https://codegeex.cn/en-US"
+      }
+    ]
+  },
+  {
     "name": "Canva",
     "country_code": "US",
     "alternatives": [
