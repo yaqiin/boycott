@@ -244,6 +244,11 @@
         "name": "BigBlueButton",
         "country_code": "CA",
         "link": "https://bigbluebutton.org/"
+      },
+      {
+        "name": "Vconnct",
+        "country_code": "EG",
+        "link": "https://vconnct.me/en/home"
       }
     ]
   },
