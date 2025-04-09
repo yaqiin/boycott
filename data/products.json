@@ -419,5 +419,16 @@
         "link": "https://telegram.org/"
       }
     ]
+  },
+  {
+    "name": "Upwork",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Mostaql",
+        "country_code": "UK",
+        "link": "https://mostaql.com/"
+      }
+    ]
   }
 ]
