@@ -273,13 +273,18 @@
     ]
   },
   {
-    "name": "Azure",
+    "name": "Microsoft Azure",
     "country_code": "US",
     "alternatives": [
       {
-        "name": "Google Cloud",
-        "country_code": "US",
-        "link": "https://cloud.google.com/"
+        "name": "Alibaba Cloud",
+        "country_code": "CN",
+        "link": "https://www.alibabacloud.com/"
+      },
+      {
+        "name": "OpenStack",
+        "country_code": "XX",
+        "link": "https://www.openstack.org/"
       },
       {
         "name": "Scaleway",
