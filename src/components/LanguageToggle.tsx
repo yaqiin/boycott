@@ -1,25 +1,43 @@
 
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
-import { Globe } from "lucide-react";
+import { Globe, Check } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const LanguageToggle = () => {
-  const { language, setLanguage, t } = useLanguage();
+  const { language, setLanguage, t, supportedLanguages } = useLanguage();
 
-  const toggleLanguage = () => {
-    setLanguage(language === 'ar' ? 'en' : 'ar');
+  const handleLanguageChange = (newLanguage: string) => {
+    setLanguage(newLanguage as keyof typeof supportedLanguages);
   };
 
   return (
-    <Button
-      onClick={toggleLanguage}
-      variant="outline"
-      className="flex items-center gap-2 rounded-full bg-white/80 backdrop-blur-sm hover:bg-white transition-all"
-      aria-label={t('toggleLanguage')}
-    >
-      <Globe size={16} />
-      <span>{t('toggleLanguage')}</span>
-    </Button>
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button
+          variant="outline"
+          className="flex items-center gap-2 rounded-full bg-white/80 backdrop-blur-sm hover:bg-white transition-all"
+          aria-label={t('toggleLanguage')}
+        >
+          <Globe size={16} />
+          <span>{supportedLanguages[language].nativeName}</span>
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end">
+        {Object.entries(supportedLanguages).map(([code, config]) => (
+          <DropdownMenuItem key={code} onClick={() => handleLanguageChange(code)}>
+            <span className="flex items-center gap-2">
+              {config.nativeName} {language === code && <Check size={16} />}
+            </span>
+          </DropdownMenuItem>
+        ))}
+      </DropdownMenuContent>
+    </DropdownMenu>
   );
 };
 
