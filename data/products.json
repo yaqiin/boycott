@@ -97,6 +97,11 @@
         "name": "Plane",
         "country_code": "IN",
         "link": "https://plane.so/"
+      },
+      {
+        "name": "Tuleap",
+        "country_code": "XX",
+        "link": "https://tuleap.org/"
       }
     ]
   },
