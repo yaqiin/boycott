@@ -130,7 +130,6 @@
         "country_code": "PK",
         "link": "https://frappe.io/erpnext"
       }
-      
     ]
   },
   {
@@ -208,7 +207,6 @@
       }
     ]
   },
-  
   {
     "name": "Fiverr",
     "country_code": "IL",
@@ -271,6 +269,22 @@
         "name": "Supabase",
         "country_code": "SG",
         "link": "https://supabase.com/"
+      }
+    ]
+  },
+  {
+    "name": "Azure",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Google Cloud",
+        "country_code": "US",
+        "link": "https://cloud.google.com/"
+      },
+      {
+        "name": "Scaleway",
+        "country_code": "FR",
+        "link": "https://www.scaleway.com/"
       }
     ]
   }
