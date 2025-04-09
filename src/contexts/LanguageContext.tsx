@@ -1,17 +1,17 @@
+import React, {createContext, ReactNode, useContext, useEffect, useState} from 'react';
 
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-
-import { Language, LanguageContextType, SUPPORTED_LANGUAGES, translations, TranslationKey } from './languageConfig';
+import {Language, LanguageContextType, SUPPORTED_LANGUAGES, TranslationKey, translations} from './languageConfig';
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+const DefaultLanguage = 'ar';
 
 interface LanguageProviderProps {
   children: ReactNode;
 }
 
-export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
+export const LanguageProvider: React.FC<LanguageProviderProps> = ({children}) => {
   const [isLoading, setIsLoading] = useState(true);
-  const [language, setLanguageState] = useState<Language>('ar');
+  const [language, setLanguageState] = useState<Language>(DefaultLanguage);
 
   useEffect(() => {
     const storedLang = localStorage.getItem('language') as Language;
@@ -39,13 +39,14 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
 
   const t = (key: TranslationKey): string => {
     const translation = translations[language][key];
-    return translation || translations['ar'][key] || key;
+    return translation || translations[DefaultLanguage][key] || key;
   };
 
   const isRTL = SUPPORTED_LANGUAGES[language].dir === 'rtl';
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t, isRTL, supportedLanguages: SUPPORTED_LANGUAGES, isLoading }}>
+    <LanguageContext.Provider
+      value={{language, setLanguage, t, isRTL, supportedLanguages: SUPPORTED_LANGUAGES, isLoading}}>
       {children}
     </LanguageContext.Provider>
   );
