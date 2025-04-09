@@ -37,7 +37,7 @@ We welcome contributions to our project!
 - Add new products to boycott by editing [data/products.json](data/products.json)
 - Fix bugs
 - New features
-- Translate website to other languages by editing [languageConfig.ts](src/contexts/languageConfig.ts)
+- Translate website to other languages by editing [languageConfig.ts](src/contexts/languageConfig.ts) and [data/countries.json](data/countries.json)
 - Code enhancements
 - Documentation improvements
 

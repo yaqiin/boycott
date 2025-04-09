@@ -8,8 +8,8 @@ export interface LanguageConfig {
 export const SUPPORTED_LANGUAGES: Record<string, LanguageConfig> = {
   ar: { code: 'ar', name: 'Arabic', nativeName: 'العربية', dir: 'rtl' },
   en: { code: 'en', name: 'English', nativeName: 'English', dir: 'ltr' },
-  fr: { code: 'fr', name: 'French', nativeName: 'Français', dir: 'ltr' },
-  es: { code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr' }
+  es: { code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr' },
+  fr: { code: 'fr', name: 'French', nativeName: 'Français', dir: 'ltr' }
 };
 
 export type Language = keyof typeof SUPPORTED_LANGUAGES;
@@ -28,7 +28,7 @@ export const translations = {
     'error': 'حدث خطأ في تحميل البيانات',
     'pageNotFound': 'عذرًا! الصفحة غير موجودة',
     'backHome': 'العودة إلى الصفحة الرئيسية',
-    'introText': 'منصة تساعدك على اكتشاف بدائل أخلاقية للمنتجات التقنية الأمريكية والإسرائيلية.',
+    'introText': 'منصة تساعدك على اكتشاف بدائل أخلاقية للمنتجات التقنية الإسرائيلية والأمريكية.',
     'copyright': 'يقين للمقاطعة. جميع الحقوق محفوظة.'
   },
   en: {
@@ -47,22 +47,6 @@ export const translations = {
     'introText': 'A platform to help you discover ethical alternatives to Israeli and US tech products.',
     'copyright': 'Yaqiin Boycott. All rights reserved.'
   },
-  fr: {
-    'siteName': 'Yaqiin Boycott',
-    'siteSlogan': 'Boycott Éthique, Soutenir Nos Frères',
-    'toggleLanguage': 'Changer de langue',
-    'searchPlaceholder': 'Rechercher un produit',
-    'productName': 'Nom du Produit',
-    'countryOfOrigin': 'Pays d\'Origine',
-    'alternatives': 'Alternatives',
-    'noAlternatives': 'Aucune alternative disponible pour le moment',
-    'loading': 'Chargement...',
-    'error': 'Erreur lors du chargement des données',
-    'pageNotFound': 'Oups ! Page non trouvée',
-    'backHome': 'Retour à l\'Accueil',
-    'introText': 'Une plateforme pour vous aider à découvrir des alternatives éthiques aux produits technologiques israéliens et américains.',
-    'copyright': 'Yaqiin Boycott. Tous droits réservés.'
-  },
   es: {
     'siteName': 'Yaqiin Boicot',
     'siteSlogan': 'Boicot Ético, Apoyando a Nuestros Hermanos',
@@ -78,6 +62,22 @@ export const translations = {
     'backHome': 'Volver al Inicio',
     'introText': 'Una plataforma para ayudarte a descubrir alternativas éticas a productos tecnológicos israelíes y estadounidenses.',
     'copyright': 'Yaqiin Boicot. Todos los derechos reservados.'
+  },
+  fr: {
+    'siteName': 'Yaqiin Boycott',
+    'siteSlogan': 'Boycott Éthique, Soutenir Nos Frères',
+    'toggleLanguage': 'Changer de langue',
+    'searchPlaceholder': 'Rechercher un produit',
+    'productName': 'Nom du Produit',
+    'countryOfOrigin': 'Pays d\'Origine',
+    'alternatives': 'Alternatives',
+    'noAlternatives': 'Aucune alternative disponible pour le moment',
+    'loading': 'Chargement...',
+    'error': 'Erreur lors du chargement des données',
+    'pageNotFound': 'Oups ! Page non trouvée',
+    'backHome': 'Retour à l\'Accueil',
+    'introText': 'Une plateforme pour vous aider à découvrir des alternatives éthiques aux produits technologiques israéliens et américains.',
+    'copyright': 'Yaqiin Boycott. Tous droits réservés.'
   }
 };
 

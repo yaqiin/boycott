@@ -8,7 +8,7 @@ interface CountryFlagProps {
 }
 
 const CountryFlag: React.FC<CountryFlagProps> = ({ country }) => {
-  const { isRTL } = useLanguage();
+  const { isRTL, language } = useLanguage();
 
   const renderFlag = () => {
     switch (country?.code) {
@@ -23,10 +23,10 @@ const CountryFlag: React.FC<CountryFlagProps> = ({ country }) => {
 
   return (
     <div className={`flex items-center gap-2 ${isRTL ? 'flex-row-reverse' : 'flex-row'}`}>
-      <span className="text-lg" role="img" aria-label={country?.name}>
+      <span className="text-lg" role="img" aria-label={country?.name[language]}>
         {renderFlag()}
       </span>
-      <span>{country?.name}</span>
+      <span>{country?.name[language]}</span>
     </div>
   );
 };
