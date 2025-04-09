@@ -350,5 +350,32 @@
         "link": "https://debian.org/"
       }
     ]
+  },
+  {
+    "name": "Gusto",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Bayzat",
+        "country_code": "AE",
+        "link": "https://www.bayzat.com/"
+      },
+      {
+        "name": "ZenHR",
+        "country_code": "JO",
+        "link": "https://www.zenhr.com/"
+      }
+    ]
+  },
+  {
+    "name": "Deel",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "RemotePass",
+        "country_code": "AE",
+        "link": "https://www.remotepass.com/"
+      }
+    ]
   }
 ]
