@@ -143,4 +143,19 @@
       }
     ]
   },
+  
+   {
+    "name": "TikTok",
+    "country_code": "CN",
+    "alternatives": [
+      {
+        "name": "Redz",
+        "country_code": "PS",
+        "link": "https://apps.apple.com/lt/app/redz-explore-content-nearby/id6449230971"
+      }
+    ]
+  },
+  
+  
+  
 ]
