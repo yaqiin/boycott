@@ -419,5 +419,21 @@
         "link": "https://telegram.org/"
       }
     ]
+  },
+  {
+    "name": "Amazon",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "AliExpress",
+        "country_code": "CN",
+        "link": "https://www.aliexpress.com/"
+      },
+      {
+        "name": "Temu",
+        "country_code": "CN",
+        "link": "https://www.temu.com/"
+      }
+    ]
   }
 ]
