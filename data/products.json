@@ -135,7 +135,6 @@
         "country_code": "PK",
         "link": "https://frappe.io/erpnext"
       }
-      
     ]
   },
   {
@@ -218,7 +217,6 @@
       }
     ]
   },
-  
   {
     "name": "Fiverr",
     "country_code": "IL",
@@ -285,6 +283,27 @@
     ]
   },
   {
+    "name": "Microsoft Azure",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Alibaba Cloud",
+        "country_code": "CN",
+        "link": "https://www.alibabacloud.com/"
+      },
+      {
+        "name": "OpenStack",
+        "country_code": "XX",
+        "link": "https://www.openstack.org/"
+      },
+      {
+        "name": "Scaleway",
+        "country_code": "FR",
+        "link": "https://www.scaleway.com/"
+      }
+    ]
+  },
+  {
     "name": "Similarweb",
     "country_code": "IL",
     "alternatives": [
@@ -345,11 +364,6 @@
         "name": "CodeGeex",
         "country_code": "CN",
         "link": "https://codegeex.cn/en-US"
-      },
-      {
-        "name": "BLACKBOX",
-        "country_code": "CA",
-        "link": "https://www.blackbox.ai/"
       }
     ]
   }
