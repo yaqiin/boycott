@@ -29,12 +29,12 @@ const PageSelector = ({ totalPages, currentPage, handlePageChange }) => {
   }
 
   return (
-    <div className="flex justify-center mt-8 gap-2">
+    <div className="flex justify-center mt-8 gap-1 md:gap-2 ">
       {pageNumbers.map((num, idx) =>
         typeof num === "number" ? (
           <button
             key={idx}
-            className={`px-3 py-1 rounded ${
+            className={`px-2 md:px-3 py-1 rounded ${
               num === currentPage ? "bg-yaqiin-500 text-white" : "bg-gray-200"
             }`}
             onClick={() => handlePageChange(num)}
