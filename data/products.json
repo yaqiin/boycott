@@ -377,5 +377,21 @@
         "link": "https://www.remotepass.com/"
       }
     ]
+  },
+  {
+    "name": "Tabnine",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Refact",
+        "country_code": "GB",
+        "link": "https://refact.ai/"
+      },
+      {
+        "name": "CodeGeex",
+        "country_code": "CN",
+        "link": "https://codegeex.cn/en-US"
+      }
+    ]
   }
 ]
