@@ -311,6 +311,11 @@
         "name": "SEMrush",
         "country_code": "RU",
         "link": "https://www.semrush.com/"
+      },
+      {
+        "name": "Ahrefs",
+        "country_code": "SG",
+        "link": "https://ahrefs.com/"
       }
     ]
   },
