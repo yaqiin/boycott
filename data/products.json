@@ -240,6 +240,17 @@
     ]
   },
   {
+    "name": "Upwork",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Mostaql",
+        "country_code": "GB",
+        "link": "https://mostaql.com/"
+      }
+    ]
+  },
+  {
     "name": "AWS",
     "country_code": "US",
     "alternatives": [
