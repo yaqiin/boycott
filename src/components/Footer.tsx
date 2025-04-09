@@ -39,7 +39,7 @@ export function Footer() {
           </div>
 
           <p className="text-sm text-center">
-            {currentYear} &copy; {t("copyright")}
+            {currentYear} &copy; {t('copyright')}
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export function Footer() {
               isRTL ? "right-4 text-right" : "left-4 text-left"
             }`}
           >
-            {currentYear} &copy; {t("copyright")}
+            {currentYear} &copy; {t('copyright')}
           </p>
         </div>
       </div>

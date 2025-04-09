@@ -34,7 +34,7 @@ const PageSelector = ({ totalPages, currentPage, handlePageChange }) => {
         typeof num === "number" ? (
           <button
             key={idx}
-            className={`px-2 md:px-3 py-1 rounded ${
+            className={`px-3 py-1 rounded ${
               num === currentPage ? "bg-yaqiin-500 text-white" : "bg-gray-200"
             }`}
             onClick={() => handlePageChange(num)}

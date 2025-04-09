@@ -37,7 +37,7 @@ const ProductList = () => {
         setFilteredProducts(data);
       } catch (err) {
         console.error("Error fetching products:", err);
-        setError(t("error"));
+        setError(t('error'));
       } finally {
         setIsLoading(false);
       }
@@ -71,7 +71,7 @@ const ProductList = () => {
     return (
       <div className="flex justify-center items-center py-20">
         <div className="animate-pulse text-slate-600 text-xl">
-          {t("loading")}
+          {t('loading')}
         </div>
       </div>
     );
@@ -99,7 +99,7 @@ const ProductList = () => {
         </div>
       ) : (
         <div className="text-center py-10 text-muted-foreground">
-          {t("noAlternatives")}
+          {t('noAlternatives')}
         </div>
       )}
 
