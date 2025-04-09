@@ -97,6 +97,11 @@
         "name": "Plane",
         "country_code": "IN",
         "link": "https://plane.so/"
+      },
+      {
+        "name": "Tuleap",
+        "country_code": "XX",
+        "link": "https://tuleap.org/"
       }
     ]
   },
@@ -204,6 +209,11 @@
         "name": "Drupal",
         "country_code": "XX",
         "link": "https://drupal.org/project/drupal/"
+      },
+      {
+        "name": "Wuilt",
+        "country_code": "EG",
+        "link": "https://wuilt.com/"
       }
     ]
   },
@@ -290,6 +300,54 @@
         "name": "Scaleway",
         "country_code": "FR",
         "link": "https://www.scaleway.com/"
+      }
+    ]
+  },
+  {
+    "name": "Similarweb",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "SEMrush",
+        "country_code": "RU",
+        "link": "https://www.semrush.com/"
+      }
+    ]
+  },
+  {
+    "name": "Redis",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Hazelcast",
+        "country_code": "TR",
+        "link": "https://hazelcast.com/"
+      }
+    ]
+  },
+ {
+    "name": "Red Hat",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Ubuntu",
+        "country_code": "XX",
+        "link": "https://ubuntu.com/download/"
+      },
+      {
+        "name": "Linux Mint",
+        "country_code": "XX",
+        "link": "https://linuxmint.com/"
+      },
+      {
+        "name": "Fedora",
+        "country_code": "XX",
+        "link": "https://fedoraproject.org/"
+      },
+      {
+        "name": "Debian",
+        "country_code": "XX",
+        "link": "https://debian.org/"
       }
     ]
   }
