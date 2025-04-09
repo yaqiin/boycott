@@ -265,6 +265,11 @@
     "country_code": "US",
     "alternatives": [
       {
+        "name": "Nojoom.AI",
+        "country_code": "DZ",
+        "link": "https://nojoom.ai/"
+      },
+      {
         "name": "DeepSeek",
         "country_code": "CN",
         "link": "https://www.deepseek.com/"
