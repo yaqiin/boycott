@@ -1,4 +1,3 @@
-// Language configuration
 export interface LanguageConfig {
   code: string;
   name: string;
@@ -15,7 +14,6 @@ export const SUPPORTED_LANGUAGES: Record<string, LanguageConfig> = {
 
 export type Language = keyof typeof SUPPORTED_LANGUAGES;
 
-// Translations object
 export const translations = {
   ar: {
     'siteName': 'يقين للمقاطعة',
@@ -83,7 +81,6 @@ export const translations = {
   }
 };
 
-// Translation keys type
 export type TranslationKey = keyof typeof translations['ar'];
 
 export interface LanguageContextType {

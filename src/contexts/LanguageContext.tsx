@@ -13,7 +13,6 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
   const [isLoading, setIsLoading] = useState(true);
   const [language, setLanguageState] = useState<Language>('ar');
 
-  // On mount, check stored language or detect browser language
   useEffect(() => {
     const storedLang = localStorage.getItem('language') as Language;
     if (storedLang && storedLang in SUPPORTED_LANGUAGES) {
@@ -28,7 +27,6 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     setIsLoading(false);
   }, []);
 
-  // Update HTML dir attribute when language changes
   useEffect(() => {
     document.documentElement.dir = SUPPORTED_LANGUAGES[language].dir;
     document.documentElement.lang = language;
@@ -39,10 +37,9 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     setLanguageState(lang);
   };
 
-  // Translation function with English fallback
   const t = (key: TranslationKey): string => {
     const translation = translations[language][key];
-    return translation || translations['en'][key] || key;
+    return translation || translations['ar'][key] || key;
   };
 
   const isRTL = SUPPORTED_LANGUAGES[language].dir === 'rtl';
