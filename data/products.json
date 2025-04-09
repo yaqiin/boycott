@@ -97,6 +97,11 @@
         "name": "Plane",
         "country_code": "IN",
         "link": "https://plane.so/"
+      },
+      {
+        "name": "Tuleap",
+        "country_code": "XX",
+        "link": "https://tuleap.org/"
       }
     ]
   },
@@ -205,6 +210,11 @@
         "name": "Drupal",
         "country_code": "XX",
         "link": "https://drupal.org/project/drupal/"
+      },
+      {
+        "name": "Wuilt",
+        "country_code": "EG",
+        "link": "https://wuilt.com/"
       }
     ]
   },
@@ -319,6 +329,27 @@
         "name": "Debian",
         "country_code": "XX",
         "link": "https://debian.org/"
+      }
+    ]
+  },
+  {
+    "name": "Tabnine",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Refact",
+        "country_code": "GB",
+        "link": "https://refact.ai/"
+      },
+      {
+        "name": "CodeGeex",
+        "country_code": "CN",
+        "link": "https://codegeex.cn/en-US"
+      },
+      {
+        "name": "BLACKBOX",
+        "country_code": "CA",
+        "link": "https://www.blackbox.ai/"
       }
     ]
   }
