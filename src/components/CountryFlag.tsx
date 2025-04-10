@@ -21,12 +21,19 @@ const CountryFlag: React.FC<CountryFlagProps> = ({ country }) => {
     }
   };
 
+  const getCountryName = (country: Country) => {
+    if (country?.name[language]) {
+      return country?.name[language];
+    }
+    return country?.name.en;
+  };
+
   return (
     <div className={`flex items-center gap-2 ${isRTL ? 'flex-row-reverse' : 'flex-row'}`}>
-      <span className="text-lg" role="img" aria-label={country?.name[language]}>
+      <span className="text-lg" role="img" aria-label={getCountryName(country)}>
         {renderFlag()}
       </span>
-      <span>{country?.name[language]}</span>
+      <span>{getCountryName(country)}</span>
     </div>
   );
 };
