@@ -1,4 +1,3 @@
-
 const PageSelector = ({ totalPages, currentPage, handlePageChange }) => {
   const pageNumbers: (number | string)[] = [];
   const maxButtons = 5;
@@ -35,7 +34,9 @@ const PageSelector = ({ totalPages, currentPage, handlePageChange }) => {
           <button
             key={idx}
             className={`px-3 py-1 rounded ${
-              num === currentPage ? "bg-yaqiin-500 text-white" : "bg-gray-200"
+              num === currentPage
+                ? "bg-yaqiin-500 text-white"
+                : "bg-gray-200 dark:bg-yaqiin-200/10"
             }`}
             onClick={() => handlePageChange(num)}
           >

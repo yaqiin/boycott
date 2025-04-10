@@ -37,7 +37,7 @@ const ProductList = () => {
         setFilteredProducts(data);
       } catch (err) {
         console.error("Error fetching products:", err);
-        setError(t('error'));
+        setError(t("error"));
       } finally {
         setIsLoading(false);
       }
@@ -65,21 +65,17 @@ const ProductList = () => {
     setCurrentPage(1);
   };
 
-
-
   if (isLoading) {
     return (
       <div className="flex justify-center items-center py-20">
-        <div className="animate-pulse text-slate-600 text-xl">
-          {t('loading')}
-        </div>
+        <div className="animate-pulse text-xl">{t("loading")}</div>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="py-10 text-center text-red-600">
+      <div className="py-10 text-center text-red-600 dark:text-red-400">
         <p>{error}</p>
       </div>
     );
@@ -99,7 +95,7 @@ const ProductList = () => {
         </div>
       ) : (
         <div className="text-center py-10 text-muted-foreground">
-          {t('noAlternatives')}
+          {t("noAlternatives")}
         </div>
       )}
 

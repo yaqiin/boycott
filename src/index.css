@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -36,6 +35,36 @@
     --radius: 0.5rem;
   }
 
+  .dark {
+    --background: 178 20% 8%;
+    --foreground: 178 20% 92%;
+
+    --card: 178 14% 12%;
+    --card-foreground: 178 20% 92%;
+
+    --popover: 178 14% 12%;
+    --popover-foreground: 178 20% 92%;
+
+    --primary: 178 100% 34%;
+    --primary-foreground: 178 5% 98%;
+
+    --secondary: 178 10% 20%;
+    --secondary-foreground: 178 30% 94%;
+
+    --muted: 178 10% 24%;
+    --muted-foreground: 178 10% 60%;
+
+    --accent: 178 15% 22%;
+    --accent-foreground: 178 30% 94%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 178 10% 28%;
+    --input: 178 10% 28%;
+    --ring: 178 100% 34%;
+  }
+
   * {
     @apply border-border;
   }
@@ -60,11 +89,11 @@
   .yaqiin-container {
     @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl;
   }
-  
+
   .btn-primary {
     @apply bg-yaqiin-500 text-white hover:bg-yaqiin-600 transition-colors;
   }
-  
+
   .card-hover {
     @apply transition-all duration-300 hover:shadow-md hover:border-yaqiin-300;
   }
