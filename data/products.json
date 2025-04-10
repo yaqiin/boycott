@@ -405,6 +405,22 @@
     ]
   },
   {
+    "name": "Tabnine",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Refact",
+        "country_code": "GB",
+        "link": "https://refact.ai/"
+      },
+      {
+        "name": "CodeGeeX",
+        "country_code": "OSS",
+        "link": "https://codegeex.cn/en-US"
+      }
+    ]
+  },
+  {
     "name": "Canva",
     "country_code": "US",
     "alternatives": [
@@ -428,6 +444,22 @@
         "name": "Telegram",
         "country_code": "AE",
         "link": "https://telegram.org/"
+      }
+    ]
+  },
+  {
+    "name": "Amazon",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "AliExpress",
+        "country_code": "CN",
+        "link": "https://www.aliexpress.com/"
+      },
+      {
+        "name": "Temu",
+        "country_code": "CN",
+        "link": "https://www.temu.com/"
       }
     ]
   }

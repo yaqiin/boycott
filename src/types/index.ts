@@ -1,7 +1,7 @@
 
 export interface Country {
   code: string;
-  name: string;
+  name: Record<string, string>;
 }
 
 export interface Alternative {
