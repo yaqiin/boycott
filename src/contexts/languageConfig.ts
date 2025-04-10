@@ -12,8 +12,8 @@ export const SUPPORTED_LANGUAGES: Record<string, LanguageConfig> = {
   es: { code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr' },
   fr: { code: 'fr', name: 'French', nativeName: 'Français', dir: 'ltr' },
   id: { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr' },
-  tr: { code: 'id', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr' },
-  ur: { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'ltr' },
+  tr: { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr' },
+  ur: { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl' },
 };
 
 export type Language = keyof typeof SUPPORTED_LANGUAGES;
