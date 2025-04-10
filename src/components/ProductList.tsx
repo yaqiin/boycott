@@ -1,10 +1,10 @@
-
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ProductUI } from "@/types";
 import { fetchProducts } from "@/services/dataService";
 import ProductCard from "./ProductCard";
 import ProductSearch from "./ProductSearch";
+import PageSelector from "./PageSelector";
 
 const ProductList = () => {
   const { t } = useLanguage();
@@ -12,6 +12,21 @@ const ProductList = () => {
   const [filteredProducts, setFilteredProducts] = useState<ProductUI[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [currentPage, setCurrentPage] = useState<number>(1);
+
+  const itemsPerPage = 9;
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = filteredProducts.slice(
+    indexOfFirstItem,
+    indexOfLastItem
+  );
+
+  const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+  };
 
   useEffect(() => {
     const loadProducts = async () => {
@@ -45,14 +60,19 @@ const ProductList = () => {
           alt.name.toLowerCase().includes(searchTermLower)
         )
     );
-    
+
     setFilteredProducts(filtered);
+    setCurrentPage(1);
   };
+
+
 
   if (isLoading) {
     return (
       <div className="flex justify-center items-center py-20">
-        <div className="animate-pulse text-slate-600 text-xl">{t('loading')}</div>
+        <div className="animate-pulse text-slate-600 text-xl">
+          {t('loading')}
+        </div>
       </div>
     );
   }
@@ -70,10 +90,10 @@ const ProductList = () => {
       <div className="mb-8">
         <ProductSearch onSearch={handleSearch} />
       </div>
-      
-      {filteredProducts.length > 0 ? (
+
+      {currentItems.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredProducts.map((product, index) => (
+          {currentItems.map((product, index) => (
             <ProductCard key={index} product={product} />
           ))}
         </div>
@@ -82,6 +102,9 @@ const ProductList = () => {
           {t('noAlternatives')}
         </div>
       )}
+
+      {totalPages > 1 &&
+        PageSelector({ totalPages, currentPage, handlePageChange })}
     </div>
   );
 };
