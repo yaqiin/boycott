@@ -26,7 +26,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({
   return (
     <div className="w-full">
       <Select value={selectedCategory} onValueChange={onCategoryChange}>
-        <SelectTrigger className={`w-full ${isRTL ? 'text-right' : 'text-left'}`}>
+        <SelectTrigger className="w-full h-12" dir={`${isRTL ? 'rtl' : 'ltr'}`}>
           <div className="flex items-center gap-2">
             <Filter size={16} />
             <SelectValue placeholder={t("allCategories")} />

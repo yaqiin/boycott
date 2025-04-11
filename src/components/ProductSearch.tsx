@@ -1,157 +1,43 @@
 
-import { useState, useEffect } from "react";
-import { useLanguage } from "@/contexts/LanguageContext";
-import { Category, ProductUI } from "@/types";
-import { fetchProducts, getAllCategories } from "@/services/dataService";
-import ProductCard from "./ProductCard";
-import ProductSearch from "./ProductSearch";
-import PageSelector from "./PageSelector";
-import CategoryFilter from "./CategoryFilter";
-import { Badge } from "./ui/badge";
+import { useState } from 'react';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { Input } from '@/components/ui/input';
+import { Search } from 'lucide-react';
 
-const ProductList = () => {
-  const { t } = useLanguage();
-  const [products, setProducts] = useState<ProductUI[]>([]);
-  const [filteredProducts, setFilteredProducts] = useState<ProductUI[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [currentPage, setCurrentPage] = useState<number>(1);
-  const [searchTerm, setSearchTerm] = useState<string>("");
-  const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const [categories, setCategories] = useState<Category[]>([]);
+interface ProductSearchProps {
+  onSearch: (term: string) => void;
+}
 
-  const itemsPerPage = 9;
-  const indexOfLastItem = currentPage * itemsPerPage;
-  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = filteredProducts.slice(
-    indexOfFirstItem,
-    indexOfLastItem
-  );
+const ProductSearch: React.FC<ProductSearchProps> = ({ onSearch }) => {
+  const { t, isRTL } = useLanguage();
+  const [searchTerm, setSearchTerm] = useState('');
 
-  const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
-
-  const handlePageChange = (page: number) => {
-    setCurrentPage(page);
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setSearchTerm(value);
+    onSearch(value);
   };
-
-  useEffect(() => {
-    const loadProducts = async () => {
-      try {
-        setIsLoading(true);
-        const data = await fetchProducts();
-        setProducts(data);
-        setFilteredProducts(data);
-
-        // Get categories from data service instead of extracting from products
-        const allCategories = getAllCategories();
-        setCategories(allCategories);
-
-      } catch (err) {
-        console.error("Error fetching products:", err);
-        setError(t("error"));
-      } finally {
-        setIsLoading(false);
-      }
-    };
-
-    loadProducts();
-  }, [t]);
-
-  const filterProducts = () => {
-    let results = products;
-
-    // Filter by search term
-    if (searchTerm) {
-      const searchTermLower = searchTerm.toLowerCase();
-      results = results.filter(
-        (product) =>
-          product.name.toLowerCase().includes(searchTermLower) ||
-          product.alternatives?.some((alt) =>
-            alt.name.toLowerCase().includes(searchTermLower)
-          )
-      );
-    }
-
-    // Filter by category
-    if (selectedCategory !== "all") {
-      results = results.filter(
-        (product) => product.category?.id === selectedCategory
-      );
-    }
-
-    setFilteredProducts(results);
-    setCurrentPage(1);
-  };
-
-  useEffect(() => {
-    filterProducts();
-  }, [searchTerm, selectedCategory, products]);
-
-  const handleSearch = (term: string) => {
-    setSearchTerm(term);
-  };
-
-  const handleCategoryChange = (category: string) => {
-    setSelectedCategory(category);
-  };
-
-  if (isLoading) {
-    return (
-      <div className="flex justify-center items-center py-20">
-        <div className="animate-pulse text-xl">{t("loading")}</div>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="py-10 text-center text-red-600 dark:text-red-400">
-        <p>{error}</p>
-      </div>
-    );
-  }
 
   return (
-    <div className="py-8">
-      <div className="flex flex-col md:flex-row gap-4 mb-6 items-center">
-        <div className="w-full md:w-2/3">
-          <ProductSearch onSearch={handleSearch} />
-        </div>
-        <div className="w-full md:w-1/3">
-          <CategoryFilter
-            categories={categories}
-            selectedCategory={selectedCategory}
-            onCategoryChange={handleCategoryChange}
-          />
-        </div>
+    <div className='relative w-full'>
+      <div
+        className={`absolute ${
+          isRTL ? 'left-3' : 'right-3'
+        } top-1/2 transform -translate-y-1/2 text-muted-foreground`}
+      >
+        <Search size={20} className='text-foreground/80' />
       </div>
-
-      <div className="flex items-center justify-between mb-6">
-        <Badge
-          variant="outline"
-          className="px-4 py-2 gap-1 text-sm bg-secondary/20 dark:bg-secondary/10 border-muted-foreground/20"
-        >
-          <span className="text-yaqiin-600"> {filteredProducts.length}</span>
-          <span>{t('productsCount')}</span>
-        </Badge>
-      </div>
-
-      {currentItems.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {currentItems.map((product, index) => (
-            <ProductCard key={index} product={product} />
-          ))}
-        </div>
-      ) : (
-        <div className="text-center py-10 text-muted-foreground">
-          {t("noAlternatives")}
-        </div>
-      )}
-
-      {totalPages > 1 &&
-        PageSelector({ totalPages, currentPage, handlePageChange })}
+      <Input
+        type='text'
+        value={searchTerm}
+        onChange={handleChange}
+        placeholder={t('searchPlaceholder')}
+        className={`bg-white dark:bg-yaqiin-300/20 py-6 ${
+          isRTL ? 'pl-10 text-right' : 'pr-10'
+        } rounded-md border-yaqiin-200 focus-visible:ring-yaqiin-500 placeholder:text-foreground/80`}
+      />
     </div>
   );
 };
 
-export default ProductList;
+export default ProductSearch;
