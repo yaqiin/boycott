@@ -9,6 +9,11 @@
         "link": "https://www.gimp.org/"
       },
       {
+        "name": "Krita",
+        "country_code": "OSS",
+        "link": "https://krita.org/"
+      },
+      {
         "name": "Affinity Photo",
         "country_code": "GB",
         "link": "https://affinity.serif.com/en-gb/photo/"
@@ -300,6 +305,11 @@
         "name": "DeepSeek",
         "country_code": "CN",
         "link": "https://www.deepseek.com/"
+      },
+      {
+        "name": "Qwen",
+        "country_code": "CN",
+        "link": "https://chat.qwen.ai/"
       }
     ]
   },
@@ -460,6 +470,27 @@
         "name": "Temu",
         "country_code": "CN",
         "link": "https://www.temu.com/"
+      },
+      {
+        "name": "Banggood",
+        "country_code": "CN",
+        "link": "https://ar.banggood.com/"
+      }
+    ]
+  },
+  {
+    "name": "Notion",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Joplin",
+        "country_code": "OSS",
+        "link": "https://joplinapp.org/"
+      },
+      {
+        "name": "Obsidian",
+        "country_code": "CA",
+        "link": "https://obsidian.md/"
       }
     ]
   }
