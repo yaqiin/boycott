@@ -66,6 +66,6 @@
   }
   
   .card-hover {
-    @apply transition-all duration-300 hover:shadow-md hover:border-yaqiin-300;
+    @apply transition-all duration-300 hover:shadow-md hover:border-yaqiin-300 hover:scale-105;
   }
 }

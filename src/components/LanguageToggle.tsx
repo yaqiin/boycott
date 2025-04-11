@@ -14,7 +14,7 @@ const LanguageToggle = () => {
     <Button
       onClick={toggleLanguage}
       variant="outline"
-      className="flex items-center gap-2 rounded-full bg-white/80 backdrop-blur-sm hover:bg-white transition-all"
+      className="flex items-center gap-2 rounded-full bg-white/80 backdrop-blur-sm hover:bg-white hover:shadow-sm  hover:scale-105 active:scale-95 transition-all"
       aria-label={t('toggleLanguage')}
     >
       <Globe size={16} />
