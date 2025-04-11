@@ -1,5 +1,5 @@
 import {Github, Mail} from "lucide-react";
-import {useLanguage} from "@/contexts/LanguageContext.tsx";
+import {useLanguage} from "@/contexts/LanguageContext";
 
 const socialLinks = [
   {
