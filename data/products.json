@@ -308,7 +308,7 @@
       },
       {
         "name": "Qwen",
-        "country_code": "CN",
+        "country_code": "OSS",
         "link": "https://chat.qwen.ai/"
       }
     ]
