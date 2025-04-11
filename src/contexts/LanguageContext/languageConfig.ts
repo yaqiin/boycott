@@ -1,4 +1,3 @@
-
 export interface LanguageConfig {
   code: string;
   name: string;
@@ -7,51 +6,23 @@ export interface LanguageConfig {
 }
 
 export const SUPPORTED_LANGUAGES: Record<string, LanguageConfig> = {
-  ar: { code: 'ar', name: 'Arabic', nativeName: 'العربية', dir: 'rtl' },
-  en: { code: 'en', name: 'English', nativeName: 'English', dir: 'ltr' },
-  bn: { code: 'bn', name: 'Bengali', nativeName: 'বাংলা', dir: 'ltr' },
-  es: { code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr' },
-  fr: { code: 'fr', name: 'French', nativeName: 'Français', dir: 'ltr' },
-  id: { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr' },
-  tr: { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr' },
-  ur: { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl' },
+  ar: {code: 'ar', name: 'Arabic', nativeName: 'العربية', dir: 'rtl'},
+  en: {code: 'en', name: 'English', nativeName: 'English', dir: 'ltr'},
+  bn: {code: 'bn', name: 'Bengali', nativeName: 'বাংলা', dir: 'ltr'},
+  es: {code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr'},
+  fr: {code: 'fr', name: 'French', nativeName: 'Français', dir: 'ltr'},
+  id: {code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr'},
+  tr: {code: 'tr', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr'},
+  ur: {code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl'},
 };
 
 export type Language = keyof typeof SUPPORTED_LANGUAGES;
 
 export const translations = {
-  bn: {
-    'siteName': 'ইয়াকীন বয়কট',
-    'siteSlogan': 'নৈতিক বয়কট, আমাদের ভাইদের সমর্থন',
-    'toggleLanguage': 'বাংলা',
-    'searchPlaceholder': 'একটি পণ্য খুঁজুন',
-    'productName': 'পণ্যের নাম',
-    'countryOfOrigin': 'উৎপত্তির দেশ',
-    'alternatives': 'বিকল্পসমূহ',
-    'noAlternatives': 'এখনো কোনো বিকল্প উপলব্ধ নেই',
-    'loading': 'লোড হচ্ছে...',
-    'error': 'ডেটা লোড করতে সমস্যা হয়েছে',
-    'pageNotFound': 'উপস! পেজটি পাওয়া যায়নি',
-    'backHome': 'হোমে ফিরুন',
-    'introText': 'ইসরায়েলি এবং মার্কিন প্রযুক্তি পণ্যের নৈতিক বিকল্পগুলি আবিষ্কার করতে সাহায্য করার একটি প্ল্যাটফর্ম।',
-    'copyright': 'ইয়াকীন বয়কট। সর্বস্বত্ব সংরক্ষিত।',
-    'whyBoycott': 'কেন বয়কট?',
-    'products': 'পণ্যসমূহ',
-    'backToProducts': 'পণ্যসমূহে ফিরে যান',
-    'whyBoycottSubtitle1': 'আমরা কেন বয়কট করি?',
-    'whyBoycottParagraph1': 'বয়কট হল আমাদের ভোক্তা ক্ষমতা ব্যবহার করে অন্যায়কারী প্রতিষ্ঠানগুলিকে তাদের নীতি পরিবর্তন করতে বাধ্য করার একটি শক্তিশালী উপায়।',
-    'whyBoycottSubtitle2': 'এর প্রভাব কী?',
-    'whyBoycottParagraph2': 'সম্মিলিত ক্রেতাদের বয়কট সংস্থাগুলির আর্থিক স্বাস্থ্যকে প্রভাবিত করতে পারে এবং কোম্পানির আচরণে পরিবর্তন আনতে পারে।',
-    'whyBoycottSubtitle3': 'কিভাবে বয়কট কাজ করে?',
-    'whyBoycottParagraph3': 'আমরা কোম্পানিগুলির পণ্য ও পরিষেবা না কিনে এবং নৈতিক বিকল্পগুলিকে সমর্থন করে আমাদের অর্থনৈতিক ক্ষমতার কণ্ঠস্বর দেই।',
-    'whyBoycottSubtitle4': 'কেন এই বয়কট?',
-    'whyBoycottParagraph4': 'যারা অন্যায়, নিপীড়ন এবং মানবাধিকার লঙ্ঘনে সহায়তা করে তাদের থেকে অর্থনৈতিক সমর্থন ফিরিয়ে নেওয়া আমাদের নৈতিক দায়িত্ব।',
-    'allCategories': 'সকল বিভাগ',
-    'productsCount': 'পণ্য',
-  },
   ar: {
     'siteName': 'يقين للمقاطعة',
     'siteSlogan': 'مقاطعة أخلاقية، نصرة لأخوتنا',
+    'menuTitle': 'القائمة',
     'toggleLanguage': 'English',
     'searchPlaceholder': 'ابحث عن منتج',
     'productName': 'اسم المنتج',
@@ -78,9 +49,40 @@ export const translations = {
     'allCategories': 'جميع الفئات',
     'productsCount': 'منتج',
   },
+  bn: {
+    'siteName': 'ইয়াকীন বয়কট',
+    'siteSlogan': 'নৈতিক বয়কট, আমাদের ভাইদের সমর্থন',
+    'menuTitle': 'তালিকা',
+    'toggleLanguage': 'বাংলা',
+    'searchPlaceholder': 'একটি পণ্য খুঁজুন',
+    'productName': 'পণ্যের নাম',
+    'countryOfOrigin': 'উৎপত্তির দেশ',
+    'alternatives': 'বিকল্পসমূহ',
+    'noAlternatives': 'এখনো কোনো বিকল্প উপলব্ধ নেই',
+    'loading': 'লোড হচ্ছে...',
+    'error': 'ডেটা লোড করতে সমস্যা হয়েছে',
+    'pageNotFound': 'উপস! পেজটি পাওয়া যায়নি',
+    'backHome': 'হোমে ফিরুন',
+    'introText': 'ইসরায়েলি এবং মার্কিন প্রযুক্তি পণ্যের নৈতিক বিকল্পগুলি আবিষ্কার করতে সাহায্য করার একটি প্ল্যাটফর্ম।',
+    'copyright': 'ইয়াকীন বয়কট। সর্বস্বত্ব সংরক্ষিত।',
+    'whyBoycott': 'কেন বয়কট?',
+    'products': 'পণ্যসমূহ',
+    'backToProducts': 'পণ্যসমূহে ফিরে যান',
+    'whyBoycottSubtitle1': 'আমরা কেন বয়কট করি?',
+    'whyBoycottParagraph1': 'বয়কট হল আমাদের ভোক্তা ক্ষমতা ব্যবহার করে অন্যায়কারী প্রতিষ্ঠানগুলিকে তাদের নীতি পরিবর্তন করতে বাধ্য করার একটি শক্তিশালী উপায়।',
+    'whyBoycottSubtitle2': 'এর প্রভাব কী?',
+    'whyBoycottParagraph2': 'সম্মিলিত ক্রেতাদের বয়কট সংস্থাগুলির আর্থিক স্বাস্থ্যকে প্রভাবিত করতে পারে এবং কোম্পানির আচরণে পরিবর্তন আনতে পারে।',
+    'whyBoycottSubtitle3': 'কিভাবে বয়কট কাজ করে?',
+    'whyBoycottParagraph3': 'আমরা কোম্পানিগুলির পণ্য ও পরিষেবা না কিনে এবং নৈতিক বিকল্পগুলিকে সমর্থন করে আমাদের অর্থনৈতিক ক্ষমতার কণ্ঠস্বর দেই।',
+    'whyBoycottSubtitle4': 'কেন এই বয়কট?',
+    'whyBoycottParagraph4': 'যারা অন্যায়, নিপীড়ন এবং মানবাধিকার লঙ্ঘনে সহায়তা করে তাদের থেকে অর্থনৈতিক সমর্থন ফিরিয়ে নেওয়া আমাদের নৈতিক দায়িত্ব।',
+    'allCategories': 'সকল বিভাগ',
+    'productsCount': 'পণ্য',
+  },
   en: {
     'siteName': 'Yaqiin Boycott',
     'siteSlogan': 'Ethical Boycott, Supporting Our Brothers',
+    'menuTitle': 'Menu',
     'toggleLanguage': 'العربية',
     'searchPlaceholder': 'Search for a product',
     'productName': 'Product Name',
@@ -110,6 +112,7 @@ export const translations = {
   es: {
     'siteName': 'Yaqiin Boicot',
     'siteSlogan': 'Boicot Ético, Apoyando a Nuestros Hermanos',
+    'menuTitle': 'Menú',
     'toggleLanguage': 'Cambiar Idioma',
     'searchPlaceholder': 'Buscar un producto',
     'productName': 'Nombre del Producto',
@@ -139,6 +142,7 @@ export const translations = {
   fr: {
     'siteName': 'Yaqiin Boycott',
     'siteSlogan': 'Boycott Éthique, Soutenir Nos Frères',
+    'menuTitle': 'Menu',
     'toggleLanguage': 'Changer de langue',
     'searchPlaceholder': 'Rechercher un produit',
     'productName': 'Nom du Produit',
@@ -168,6 +172,7 @@ export const translations = {
   id: {
     'siteName': 'Yaqiin Boikot',
     'siteSlogan': 'Boikot Etis, Mendukung Saudara-saudara Kita',
+    'menuTitle': 'Menu',
     'toggleLanguage': 'Bahasa Indonesia',
     'searchPlaceholder': 'Cari produk',
     'productName': 'Nama Produk',
@@ -197,6 +202,7 @@ export const translations = {
   tr: {
     'siteName': 'Yaqiin Boykot',
     'siteSlogan': 'Etik Boykot, Kardeşlerimize Destek',
+    'menuTitle': 'Menü',
     'toggleLanguage': 'Türkçe',
     'searchPlaceholder': 'Bir ürün ara',
     'productName': 'Ürün Adı',
@@ -226,6 +232,7 @@ export const translations = {
   ur: {
     'siteName': 'یقین بائیکاٹ',
     'siteSlogan': 'اخلاقی بائیکاٹ، ہمارے بھائیوں کی حمایت',
+    'menuTitle': 'فہرست',
     'toggleLanguage': 'اردو',
     'searchPlaceholder': 'مصنوعات تلاش کریں',
     'productName': 'مصنوعات کا نام',

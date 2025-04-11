@@ -32,7 +32,7 @@ const Why = () => {
         </Link>
 
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-3xl font-bold mb-6 text-yaqiin-800 dark:text-yaqiin-500">
+          <h1 className="text-3xl font-bold mb-6 text-yaqiin-800 dark:text-yaqiin-500 text-center">
             {t("whyBoycott")}
           </h1>
           <section className="prose p-6 dark:prose-invert prose-yaqiin">
