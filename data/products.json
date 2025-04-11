@@ -1,6 +1,7 @@
 [
   {
     "name": "Adobe Photoshop",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -22,6 +23,7 @@
   },
   {
     "name": "Google Workspace",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -38,6 +40,7 @@
   },
   {
     "name": "Google Forms",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -49,6 +52,7 @@
   },
   {
     "name": "Adobe Illustrator",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -65,6 +69,7 @@
   },
   {
     "name": "GitHub",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -81,6 +86,7 @@
   },
   {
     "name": "Microsoft Office",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -102,6 +108,7 @@
   },
   {
     "name": "Monday.com",
+    "category_id": "tech",
     "country_code": "IL",
     "alternatives": [
       {
@@ -123,6 +130,7 @@
   },
   {
     "name": "Zappier",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -134,6 +142,7 @@
   },
   {
     "name": "Salesforce",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -150,6 +159,7 @@
   },
   {
     "name": "Cisco",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -161,6 +171,7 @@
   },
   {
     "name": "Linkedin",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -172,6 +183,7 @@
   },
   {
     "name": "Slack",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -188,6 +200,7 @@
   },
   {
     "name": "Microsoft Windows",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -214,6 +227,7 @@
   },
   {
     "name": "Wix",
+    "category_id": "tech",
     "country_code": "IL",
     "alternatives": [
       {
@@ -235,6 +249,7 @@
   },
   {
     "name": "Fiverr",
+    "category_id": "tech",
     "country_code": "IL",
     "alternatives": [
       {
@@ -246,6 +261,7 @@
   },
   {
     "name": "Upwork",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -257,6 +273,7 @@
   },
   {
     "name": "AWS",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -273,6 +290,7 @@
   },
   {
     "name": "Zoom",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -294,6 +312,7 @@
   },
   {
     "name": "ChatGPT",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -315,6 +334,7 @@
   },
   {
     "name": "Firebase",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -326,6 +346,7 @@
   },
   {
     "name": "Microsoft Azure",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -347,6 +368,7 @@
   },
   {
     "name": "Similarweb",
+    "category_id": "tech",
     "country_code": "IL",
     "alternatives": [
       {
@@ -363,6 +385,7 @@
   },
   {
     "name": "Red Hat",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -389,6 +412,7 @@
   },
   {
     "name": "Gusto",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -405,6 +429,7 @@
   },
   {
     "name": "Deel",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -416,6 +441,7 @@
   },
   {
     "name": "Tabnine",
+    "category_id": "tech",
     "country_code": "IL",
     "alternatives": [
       {
@@ -432,6 +458,7 @@
   },
   {
     "name": "Canva",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -443,6 +470,7 @@
   },
   {
     "name": "Viber",
+    "category_id": "tech",
     "country_code": "IL",
     "alternatives": [
       {
@@ -459,6 +487,7 @@
   },
   {
     "name": "Amazon",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -480,6 +509,7 @@
   },
   {
     "name": "Notion",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {

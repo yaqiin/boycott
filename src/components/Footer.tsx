@@ -1,5 +1,6 @@
 import {Github, Mail} from "lucide-react";
 import {useLanguage} from "@/contexts/LanguageContext";
+import { Separator } from "@/components/ui/separator";
 
 const socialLinks = [
   {
@@ -19,10 +20,13 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-yaqiin-500 text-yaqiin-100 mt-auto px-4">
-      <div className="mx-auto max-w-7xl py-4 relative">
+    <footer className="w-full bg-secondary/20 dark:bg-secondary/10 text-foreground mt-auto px-4">
+      <div className="mx-auto max-w-7xl relative">
+        {/* Subtle Separator */}
+        <Separator className="mb-4 bg-muted-foreground/20" />
+
         {/* Mobile */}
-        <div className="md:hidden flex flex-col items-center gap-2">
+        <div className="md:hidden flex flex-col items-center gap-2 py-4">
           <div className="flex justify-center items-center gap-6">
             {socialLinks.map((link) => (
               <a
@@ -30,7 +34,7 @@ export function Footer() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-mosque-primary transition-colors"
+                className="text-muted-foreground hover:text-foreground dark:text-muted-foreground/70 dark:hover:text-foreground transition-colors"
                 aria-label={link.label}
               >
                 <link.icon className="w-6 h-6"/>
@@ -38,13 +42,13 @@ export function Footer() {
             ))}
           </div>
 
-          <p className="text-sm text-center">
+          <p className="text-sm text-muted-foreground dark:text-muted-foreground/70 text-center">
             {currentYear} &copy; {t('copyright')}
           </p>
         </div>
 
         {/* Desktop */}
-        <div className="hidden md:block">
+        <div className="hidden md:block py-4">
           <div className="flex justify-center items-center gap-6">
             {socialLinks.map((link) => (
               <a
@@ -52,7 +56,7 @@ export function Footer() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-mosque-primary transition-colors"
+                className="text-muted-foreground hover:text-foreground dark:text-muted-foreground/70 dark:hover:text-foreground transition-colors"
                 aria-label={link.label}
               >
                 <link.icon className="w-6 h-6"/>
@@ -61,7 +65,7 @@ export function Footer() {
           </div>
 
           <p
-            className={`absolute top-1/2 -translate-y-1/2 text-sm ${
+            className={`absolute top-1/2 -translate-y-1/2 text-sm text-muted-foreground dark:text-muted-foreground/70 ${
               isRTL ? "right-4 text-right" : "left-4 text-left"
             }`}
           >

@@ -1,4 +1,9 @@
 
+export interface Category {
+  id: string;
+  name: Record<string, string>;
+}
+
 export interface Country {
   code: string;
   name: Record<string, string>;
@@ -12,19 +17,22 @@ export interface Alternative {
 
 export interface Product {
   name: string;
+  category_id: string;
   country_code: string;
-  alternatives: Alternative[];
+  category?: string;
+  alternatives?: Alternative[];
 }
 
 // Transformed types for UI display
 export interface ProductUI {
   name: string;
-  country: Country;
-  alternatives: AlternativeUI[];
+  category?: Category;
+  country?: Country;
+  alternatives?: AlternativeUI[];
 }
 
 export interface AlternativeUI {
   name: string;
-  country: Country;
+  country?: Country;
   link: string;
 }
