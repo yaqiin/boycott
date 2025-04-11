@@ -29,7 +29,11 @@ const CountryFlag: React.FC<CountryFlagProps> = ({ country }) => {
   };
 
   return (
-    <div className={`flex items-center gap-2 ${isRTL ? 'flex-row-reverse' : 'flex-row'}`}>
+    <div
+      className={`flex  items-center gap-2 ${
+        isRTL ? "flex-row-reverse" : "flex-row"
+      }`}
+    >
       <span className="text-lg" role="img" aria-label={getCountryName(country)}>
         {renderFlag()}
       </span>

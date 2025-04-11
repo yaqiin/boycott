@@ -19,7 +19,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-yaqiin-500 text-yaqiin-100 mt-auto px-4">
+    <footer className="w-full bg-yaqiin-800 text-yaqiin-100 mt-auto px-4">
       <div className="mx-auto max-w-7xl py-4 relative">
         {/* Mobile */}
         <div className="md:hidden flex flex-col items-center gap-2">
@@ -33,13 +33,13 @@ export function Footer() {
                 className="hover:text-mosque-primary transition-colors"
                 aria-label={link.label}
               >
-                <link.icon className="w-6 h-6"/>
+                <link.icon className="w-6 h-6" />
               </a>
             ))}
           </div>
 
           <p className="text-sm text-center">
-            {currentYear} &copy; {t('copyright')}
+            {currentYear} &copy; {t("copyright")}
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export function Footer() {
                 className="hover:text-mosque-primary transition-colors"
                 aria-label={link.label}
               >
-                <link.icon className="w-6 h-6"/>
+                <link.icon className="w-6 h-6" />
               </a>
             ))}
           </div>
@@ -65,7 +65,7 @@ export function Footer() {
               isRTL ? "right-4 text-right" : "left-4 text-left"
             }`}
           >
-            {currentYear} &copy; {t('copyright')}
+            {currentYear} &copy; {t("copyright")}
           </p>
         </div>
       </div>

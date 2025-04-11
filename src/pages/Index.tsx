@@ -7,20 +7,22 @@ const Index = () => {
   const {t, isRTL} = useLanguage();
 
   return (
-    <div className={`min-h-screen flex flex-col ${isRTL ? 'rtl' : 'ltr'}`}>
-      <Header/>
+    <div
+      className={`min-h-screen bg-neutral-50 flex flex-col ${
+        isRTL ? "rtl" : "ltr"
+      }`}
+    >
+      <Header />
       <main className="flex-grow yaqiin-container py-8 animate-fade-in">
         <div className="max-w-2xl mx-auto mb-10 text-center">
           <h1 className="text-3xl md:text-4xl font-bold mb-4 text-yaqiin-800">
-            {t('siteName')}
+            {t("siteName")}
           </h1>
-          <p className="text-lg">
-            {t('introText')}
-          </p>
+          <p className="text-lg">{t("introText")}</p>
         </div>
-        <ProductList/>
+        <ProductList />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
