@@ -1,2 +1,14 @@
 #!/bin/sh
+
+echo "🔍 Running TypeScript type check..."
+
 npm run typecheck
+
+RESULT=$?
+
+if [ $RESULT -ne 0 ]; then
+  echo "❌ Push aborted due to TypeScript errors."
+  exit 1
+else
+  echo "✅ No TypeScript errors. Proceeding with push."
+fi
