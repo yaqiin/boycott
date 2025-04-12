@@ -1,4 +1,3 @@
-
 export interface Category {
   id: string;
   name: Record<string, string>;
@@ -35,4 +34,10 @@ export interface AlternativeUI {
   name: string;
   country?: Country;
   link: string;
+}
+
+export interface WhyBoycottItem {
+  icon: string;
+  title: Record<string, string>;
+  description: Record<string, string>;
 }
