@@ -83,27 +83,6 @@ const ProductList = () => {
     setSelectedCategory(category);
   };
 
-  // Modify last word 
-  function modifyLastWordWithStyle(str: string): JSX.Element {
-    const words = str.split(' ');
-    const lastWord = words.pop(); 
-    const restOfString = words.join(' ');
-
-    return (
-      <>
-        {restOfString}{' '}
-        <a
-          href="mailto:contact@yaqiin.org"
-          className="text-yaqiin-500 font-medium underline"
-        >
-          {lastWord}
-        </a>
-      </>
-    );
-  }
-
-  const modifiedDescription = modifyLastWordWithStyle(t('noAlternativesDescription')); // Now dynamically using translation
-
   if (isLoading) {
     return (
       <div className="flex justify-center items-center py-20">
@@ -160,7 +139,12 @@ const ProductList = () => {
           />
           <h4 className="text-center py-4 font-medium text-muted-DEFAULT">{t('noAlternatives')}</h4>
           <p className="text-center text-muted-foreground">
-            {modifiedDescription}
+            {t('noAlternativesDescription')}  
+            {" "}
+              <a href="http://form.boycott.yaqiin.org" 
+                className="text-yaqiin-500 font-medium underline">
+                 {t('here')}
+              </a>
           </p>
         </div>
       )}
