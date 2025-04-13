@@ -486,6 +486,23 @@
     ]
   },
   {
+    "name": "WhatsApp",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Signal",
+        "country_code": "OSS",
+        "link": "https://signal.org/"
+      },
+      {
+        "name": "Telegram",
+        "country_code": "AE",
+        "link": "https://telegram.org/"
+      }
+    ]
+  },
+  {
     "name": "Amazon",
     "category_id": "tech",
     "country_code": "US",
