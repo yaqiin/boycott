@@ -523,5 +523,23 @@
         "link": "https://obsidian.md/"
       }
     ]
+  }،
+  {
+    "name": "Google Meet",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "jitsi",
+        "country_code": "FR",
+        "link": "https://jitsi.org/"
+      },
+      {
+        "name": "Teameet",
+        "country_code": "CA",
+        "link": "https://www.teameet.cc/"
+      }
+    ]
+
   }
 ]
