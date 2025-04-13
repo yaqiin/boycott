@@ -523,5 +523,26 @@
         "link": "https://obsidian.md/"
       }
     ]
+  },
+  {
+    "name": "Cloudinary",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "ImageKit",
+        "country_code": "IN",
+        "link": "https://imagekit.io/"
+      },
+      {
+        "name": "Uploadcare",
+        "country_code": "RU",
+        "link": "https://uploadcare.com/"
+      },
+      {
+        "name": "Sirv",
+        "country_code": "GB",
+        "link": "https://sirv.com/"
+      }
+    ]
   }
 ]
