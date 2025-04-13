@@ -542,6 +542,17 @@
     ]
   },
   {
+    "name": "PayPal",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Wise",
+        "country_code": "GB",
+        "link": "https://wise.com/"
+      }
+    ]
+  },
+  {
     "name": "Cloudinary",
     "country_code": "US",
     "alternatives": [
