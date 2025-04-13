@@ -4,9 +4,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import CountryFlag from "./CountryFlag";
 import { Badge } from "./ui/badge";
 
-interface ProductCardProps {
-  product: ProductUI;
-}
+
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { t, isRTL, language } = useLanguage();
@@ -42,7 +40,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             ))}
           </ul>
         ) : (
-          <p className="text-muted-foreground">{t("noAlternatives")}</p>
+          <div className="text-muted-foreground">
+              {t("noAlternatives")}
+            </div>
         )}
       </CardContent>
     </Card>
