@@ -1,2 +1,14 @@
 #!/bin/sh
+
+echo "🧹 Running Prettier & ESLint on staged files..."
+
 npx lint-staged
+
+RESULT=$?
+
+if [ $RESULT -ne 0 ]; then
+  echo "❌ Commit aborted due to lint errors or formatting issues."
+  exit 1
+else
+  echo "✅ All good! Proceeding with commit."
+fi
