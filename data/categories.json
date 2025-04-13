@@ -1,0 +1,54 @@
+[
+  {
+    "id": "tech",
+    "name": {
+      "ar": "تكنولوجيا",
+      "bn": "প্রযুক্তি",
+      "en": "Technology",
+      "es": "Tecnología",
+      "fr": "Technologie",
+      "id": "Teknologi",
+      "tr": "Teknoloji",
+      "ur": "ٹیکنالوجی"
+    }
+  },
+  {
+    "id": "brands",
+    "name": {
+      "ar": "علامات تجارية",
+      "bn": "ব্র্যান্ড",
+      "en": "Brands",
+      "es": "Marcas",
+      "fr": "Marques",
+      "id": "Merek",
+      "tr": "Markalar",
+      "ur": "برانڈز"
+    }
+  },
+  {
+    "id": "food",
+    "name": {
+      "ar": "مأكولات",
+      "bn": "খাবার",
+      "en": "Food",
+      "es": "Comida",
+      "fr": "Nourriture",
+      "id": "Makanan",
+      "tr": "Yiyecek",
+      "ur": "کھانا"
+    }
+  },
+  {
+    "id": "supermarket",
+    "name": {
+      "ar": "سوبر ماركت",
+      "bn": "সুপারমার্কেট",
+      "en": "Supermarket",
+      "es": "Supermercado",
+      "fr": "Supermarché",
+      "id": "Supermarket",
+      "tr": "Süpermarket",
+      "ur": "سوپر مارکیٹ"
+    }
+  }
+]
