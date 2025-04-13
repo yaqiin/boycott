@@ -532,11 +532,6 @@
         "name": "Wise",
         "country_code": "GB",
         "link": "https://wise.com/"
-      },
-      {
-        "name": "Stripe",
-        "country_code": "US",
-        "link": "https://stripe.com/"
       }
     ]
   }
