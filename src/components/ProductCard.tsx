@@ -12,10 +12,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { t, isRTL, language } = useLanguage();
 
   return (
-    <Card
-      className="card-hover flex w-full flex-col overflow-hidden bg-background"
-      style={{ maxHeight: '400px' }}
-    >
+    <Card className="card-hover flex w-full flex-col overflow-hidden bg-background" style={{ maxHeight: '400px' }}>
       <CardHeader className="flex-none bg-yaqiin-50 py-3 dark:bg-yaqiin-700/10">
         <div className="flex items-center justify-between">
           <div>

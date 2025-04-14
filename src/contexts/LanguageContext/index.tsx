@@ -1,12 +1,6 @@
 import React, { createContext, ReactNode, useContext, useEffect, useState } from 'react';
 
-import {
-  Language,
-  LanguageContextType,
-  SUPPORTED_LANGUAGES,
-  TranslationKey,
-  translations,
-} from './languageConfig';
+import { Language, LanguageContextType, SUPPORTED_LANGUAGES, TranslationKey, translations } from './languageConfig';
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 const DefaultLanguage = 'ar';

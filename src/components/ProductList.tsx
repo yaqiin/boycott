@@ -135,11 +135,7 @@ const ProductList = () => {
       )}
 
       {totalPages > 1 && (
-        <PageSelector
-          totalPages={totalPages}
-          currentPage={currentPage}
-          handlePageChange={handlePageChange}
-        />
+        <PageSelector totalPages={totalPages} currentPage={currentPage} handlePageChange={handlePageChange} />
       )}
     </div>
   );

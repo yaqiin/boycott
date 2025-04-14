@@ -20,9 +20,7 @@ const ProductSearch: React.FC<ProductSearchProps> = ({ onSearch }) => {
   return (
     <div className="relative w-full">
       <div
-        className={`absolute ${
-          isRTL ? 'left-3' : 'right-3'
-        } top-1/2 -translate-y-1/2 transform text-muted-foreground`}
+        className={`absolute ${isRTL ? 'left-3' : 'right-3'} top-1/2 -translate-y-1/2 transform text-muted-foreground`}
       >
         <Search size={20} className="text-foreground/80" />
       </div>

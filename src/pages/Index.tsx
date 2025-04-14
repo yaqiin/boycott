@@ -11,9 +11,7 @@ const Index = () => {
       <Header />
       <main className="yaqiin-container flex-grow animate-fade-in py-8">
         <div className="mx-auto mb-10 max-w-2xl text-center">
-          <h1 className="mb-4 text-3xl font-bold text-yaqiin-800 dark:text-yaqiin-500 md:text-4xl">
-            {t('siteName')}
-          </h1>
+          <h1 className="mb-4 text-3xl font-bold text-yaqiin-800 dark:text-yaqiin-500 md:text-4xl">{t('siteName')}</h1>
           <p className="text-lg">{t('introText')}</p>
         </div>
         <ProductList />

@@ -1,11 +1,5 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Filter } from 'lucide-react';
 import { Category } from '@/types';
 
@@ -15,11 +9,7 @@ interface CategoryFilterProps {
   onCategoryChange: (category: string) => void;
 }
 
-const CategoryFilter: React.FC<CategoryFilterProps> = ({
-  categories,
-  selectedCategory,
-  onCategoryChange,
-}) => {
+const CategoryFilter: React.FC<CategoryFilterProps> = ({ categories, selectedCategory, onCategoryChange }) => {
   const { t, isRTL, language } = useLanguage();
 
   return (
