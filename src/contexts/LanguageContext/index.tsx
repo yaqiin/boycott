@@ -1,6 +1,12 @@
-import React, {createContext, ReactNode, useContext, useEffect, useState} from 'react';
+import React, { createContext, ReactNode, useContext, useEffect, useState } from 'react';
 
-import {Language, LanguageContextType, SUPPORTED_LANGUAGES, TranslationKey, translations} from './languageConfig';
+import {
+  Language,
+  LanguageContextType,
+  SUPPORTED_LANGUAGES,
+  TranslationKey,
+  translations,
+} from './languageConfig';
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 const DefaultLanguage = 'ar';
@@ -9,7 +15,7 @@ interface LanguageProviderProps {
   children: ReactNode;
 }
 
-export const LanguageProvider: React.FC<LanguageProviderProps> = ({children}) => {
+export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [language, setLanguageState] = useState<Language>(DefaultLanguage);
 
@@ -46,7 +52,15 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({children}) =>
 
   return (
     <LanguageContext.Provider
-      value={{language, setLanguage, t, isRTL, supportedLanguages: SUPPORTED_LANGUAGES, isLoading}}>
+      value={{
+        language,
+        setLanguage,
+        t,
+        isRTL,
+        supportedLanguages: SUPPORTED_LANGUAGES,
+        isLoading,
+      }}
+    >
       {children}
     </LanguageContext.Provider>
   );

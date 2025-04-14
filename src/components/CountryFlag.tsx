@@ -1,7 +1,7 @@
-import { useLanguage } from "@/contexts/LanguageContext";
-import { Country } from "@/types";
-import ReactCountryFlag from "react-country-flag";
-import { Earth, Github } from "lucide-react";
+import { useLanguage } from '@/contexts/LanguageContext';
+import { Country } from '@/types';
+import ReactCountryFlag from 'react-country-flag';
+import { Earth, Github } from 'lucide-react';
 
 interface CountryFlagProps {
   country: Country;
@@ -12,10 +12,10 @@ const CountryFlag: React.FC<CountryFlagProps> = ({ country }) => {
 
   const renderFlag = () => {
     switch (country?.code) {
-      case "XX":
-        return <Earth className="w-5 h-5 text-yaqiin-600" />;
-      case "OSS":
-        return <Github className="w-5 h-5 text-yaqiin-600" />;
+      case 'XX':
+        return <Earth className="h-5 w-5 text-yaqiin-600" />;
+      case 'OSS':
+        return <Github className="h-5 w-5 text-yaqiin-600" />;
       default:
         return <ReactCountryFlag countryCode={country?.code} svg title={country?.code} />;
     }

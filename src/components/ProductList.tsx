@@ -59,7 +59,7 @@ const ProductList = () => {
       results = results.filter(
         (product) =>
           product.name.toLowerCase().includes(searchTermLower) ||
-          product.alternatives?.some((alt) => alt.name.toLowerCase().includes(searchTermLower))
+          product.alternatives?.some((alt) => alt.name.toLowerCase().includes(searchTermLower)),
       );
     }
 
@@ -85,27 +85,27 @@ const ProductList = () => {
 
   if (isLoading) {
     return (
-      <div className='flex justify-center items-center py-20'>
-        <div className='animate-pulse text-xl'>{t('loading')}</div>
+      <div className="flex items-center justify-center py-20">
+        <div className="animate-pulse text-xl">{t('loading')}</div>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className='py-10 text-center text-red-600 dark:text-red-400'>
+      <div className="py-10 text-center text-red-600 dark:text-red-400">
         <p>{error}</p>
       </div>
     );
   }
 
   return (
-    <div className='py-8'>
-      <div className='flex flex-col md:flex-row gap-4 mb-6 items-center'>
-        <div className='w-full md:w-2/3'>
+    <div className="py-8">
+      <div className="mb-6 flex flex-col items-center gap-4 md:flex-row">
+        <div className="w-full md:w-2/3">
           <ProductSearch onSearch={handleSearch} />
         </div>
-        <div className='w-full md:w-1/3'>
+        <div className="w-full md:w-1/3">
           <CategoryFilter
             categories={categories}
             selectedCategory={selectedCategory}
@@ -114,24 +114,24 @@ const ProductList = () => {
         </div>
       </div>
 
-      <div className='flex items-center justify-between mb-6'>
+      <div className="mb-6 flex items-center justify-between">
         <Badge
-          variant='outline'
-          className='px-4 py-2 gap-1 text-sm bg-secondary/20 dark:bg-secondary/10 border-muted-foreground/20'
+          variant="outline"
+          className="gap-1 border-muted-foreground/20 bg-secondary/20 px-4 py-2 text-sm dark:bg-secondary/10"
         >
-          <span className='text-yaqiin-600'> {filteredProducts.length}</span>
+          <span className="text-yaqiin-600"> {filteredProducts.length}</span>
           <span>{t('productsCount')}</span>
         </Badge>
       </div>
 
       {currentItems.length > 0 ? (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {currentItems.map((product, index) => (
             <ProductCard key={index} product={product} />
           ))}
         </div>
       ) : (
-        <div className='text-center py-10 text-muted-foreground'>{t('noAlternatives')}</div>
+        <div className="py-10 text-center text-muted-foreground">{t('noAlternatives')}</div>
       )}
 
       {totalPages > 1 && (

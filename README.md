@@ -1,6 +1,8 @@
 # Yaqiin Boycott
 
-It's a platform designed to promote ethical consumerism by providing alternatives to products originating from Israel and the United States. It empowers users to make informed purchasing decisions aligned with our values.
+It's a platform designed to promote ethical consumerism by providing
+alternatives to products originating from Israel and the United States. It
+empowers users to make informed purchasing decisions aligned with our values.
 
 ## Getting Started
 
@@ -31,7 +33,10 @@ npm run dev
 
 ## Contributions Guidelines
 
-We welcome contributions to our project! Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details on how to contribute.
+We welcome contributions to our project! Please check the
+[CONTRIBUTING.md](CONTRIBUTING.md) file for more details on how to contribute.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file
+for details.
