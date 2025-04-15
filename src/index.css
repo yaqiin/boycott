@@ -87,14 +87,14 @@
 
 @layer components {
   .yaqiin-container {
-    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl;
+    @apply container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
   }
 
   .btn-primary {
-    @apply bg-yaqiin-500 text-white hover:bg-yaqiin-600 transition-colors;
+    @apply bg-yaqiin-500 text-white transition-colors hover:bg-yaqiin-600;
   }
 
   .card-hover {
-    @apply transition-all duration-300 hover:shadow-md hover:border-yaqiin-300;
+    @apply transition-all duration-300 hover:border-yaqiin-300 hover:shadow-md;
   }
 }

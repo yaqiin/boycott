@@ -39,14 +39,12 @@ export const translations = {
     products: 'المنتجات',
     backToProducts: 'العودة إلى المنتجات',
     whyBoycottSubtitle1: 'لماذا نقاطع؟',
-    whyBoycottParagraph1:
-      'المقاطعة هي وسيلة قوية لاستخدام قوتنا كمستهلكين لإجبار المؤسسات المسيئة على تغيير سياساتها.',
+    whyBoycottParagraph1: 'المقاطعة هي وسيلة قوية لاستخدام قوتنا كمستهلكين لإجبار المؤسسات المسيئة على تغيير سياساتها.',
     whyBoycottSubtitle2: 'ما هو التأثير؟',
     whyBoycottParagraph2:
       'يمكن أن تؤثر المقاطعة الجماعية للمستهلكين على الصحة المالية للشركات وأن تحدث تغييرًا في سلوك الشركات.',
     whyBoycottSubtitle3: 'كيف تعمل المقاطعة؟',
-    whyBoycottParagraph3:
-      'نحن نعبر عن قوتنا الاقتصادية من خلال عدم شراء منتجات وخدمات الشركات ودعم البدائل الأخلاقية.',
+    whyBoycottParagraph3: 'نحن نعبر عن قوتنا الاقتصادية من خلال عدم شراء منتجات وخدمات الشركات ودعم البدائل الأخلاقية.',
     whyBoycottSubtitle4: 'لماذا هذه المقاطعة؟',
     whyBoycottParagraph4:
       'من واجبنا الأخلاقي سحب الدعم الاقتصادي من أولئك الذين يساعدون في الظلم والقمع وانتهاكات حقوق الإنسان.',
@@ -67,8 +65,7 @@ export const translations = {
     error: 'ডেটা লোড করতে সমস্যা হয়েছে',
     pageNotFound: 'উপস! পেজটি পাওয়া যায়নি',
     backHome: 'হোমে ফিরুন',
-    introText:
-      'ইসরায়েলি এবং আমেরিকান পণ্যের নৈতিক বিকল্প আবিষ্কারে সহায়তা করার জন্য একটি প্ল্যাটফর্ম।',
+    introText: 'ইসরায়েলি এবং আমেরিকান পণ্যের নৈতিক বিকল্প আবিষ্কারে সহায়তা করার জন্য একটি প্ল্যাটফর্ম।',
     copyright: 'ইয়াকীন বয়কট। সর্বস্বত্ব সংরক্ষিত।',
     whyBoycott: 'কেন বয়কট?',
     products: 'পণ্যসমূহ',
@@ -136,8 +133,7 @@ export const translations = {
     error: 'Error al cargar datos',
     pageNotFound: '¡Ups! Página no encontrada',
     backHome: 'Volver al Inicio',
-    introText:
-      'Una plataforma para ayudarte a descubrir alternativas éticas a productos israelíes y estadounidenses.',
+    introText: 'Una plataforma para ayudarte a descubrir alternativas éticas a productos israelíes y estadounidenses.',
     copyright: 'Yaqiin Boicot. Todos los derechos reservados.',
     whyBoycott: '¿Por qué Boicotear?',
     products: 'Productos',
@@ -240,8 +236,7 @@ export const translations = {
     error: 'Veri yüklenirken hata oluştu',
     pageNotFound: 'Ups! Sayfa bulunamadı',
     backHome: 'Ana Sayfaya Dön',
-    introText:
-      'İsrail ve Amerikan ürünlerine etik alternatifler bulmanıza yardımcı olacak bir platform.',
+    introText: 'İsrail ve Amerikan ürünlerine etik alternatifler bulmanıza yardımcı olacak bir platform.',
     copyright: 'Yaqiin Boykot. Tüm hakları saklıdır.',
     whyBoycott: 'Neden Boykot?',
     products: 'Ürünler',
@@ -275,8 +270,7 @@ export const translations = {
     error: 'ڈیٹا لوڈ کرنے میں خرابی',
     pageNotFound: 'افسوس! صفحہ نہیں ملا',
     backHome: 'واپس ہوم پیج',
-    introText:
-      'اسرائیلی اور امریکی مصنوعات کے اخلاقی متبادل تلاش کرنے میں مدد کے لیے ایک پلیٹ فارم۔',
+    introText: 'اسرائیلی اور امریکی مصنوعات کے اخلاقی متبادل تلاش کرنے میں مدد کے لیے ایک پلیٹ فارم۔',
     copyright: 'یقین بائیکاٹ۔ جملہ حقوق محفوظ ہیں۔',
     whyBoycott: 'بائیکاٹ کیوں؟',
     products: 'مصنوعات',

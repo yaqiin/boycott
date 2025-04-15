@@ -10,7 +10,7 @@ const PageSelector = ({ totalPages, currentPage, handlePageChange }) => {
     pageNumbers.push(1);
 
     if (currentPage > 3) {
-      pageNumbers.push("...");
+      pageNumbers.push('...');
     }
 
     const start = Math.max(2, currentPage - 1);
@@ -21,22 +21,20 @@ const PageSelector = ({ totalPages, currentPage, handlePageChange }) => {
     }
 
     if (currentPage < totalPages - 2) {
-      pageNumbers.push("...");
+      pageNumbers.push('...');
     }
 
     pageNumbers.push(totalPages);
   }
 
   return (
-    <div className="flex justify-center mt-8 gap-1 md:gap-2 ">
+    <div className="mt-8 flex justify-center gap-1 md:gap-2">
       {pageNumbers.map((num, idx) =>
-        typeof num === "number" ? (
+        typeof num === 'number' ? (
           <button
             key={idx}
-            className={`px-3 py-1 rounded ${
-              num === currentPage
-                ? "bg-yaqiin-500 text-white"
-                : "bg-gray-200 dark:bg-yaqiin-200/10"
+            className={`rounded px-3 py-1 ${
+              num === currentPage ? 'bg-yaqiin-500 text-white' : 'bg-gray-200 dark:bg-yaqiin-200/10'
             }`}
             onClick={() => handlePageChange(num)}
           >
@@ -46,7 +44,7 @@ const PageSelector = ({ totalPages, currentPage, handlePageChange }) => {
           <span key={idx} className="px-3 py-1 text-gray-400">
             {num}
           </span>
-        )
+        ),
       )}
     </div>
   );

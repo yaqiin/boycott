@@ -1,14 +1,7 @@
-
-import { useLanguage } from "@/contexts/LanguageContext";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { Filter } from "lucide-react";
-import { Category } from "@/types";
+import { useLanguage } from '@/contexts/LanguageContext';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Filter } from 'lucide-react';
+import { Category } from '@/types';
 
 interface CategoryFilterProps {
   categories: Category[];
@@ -16,24 +9,20 @@ interface CategoryFilterProps {
   onCategoryChange: (category: string) => void;
 }
 
-const CategoryFilter: React.FC<CategoryFilterProps> = ({
-  categories,
-  selectedCategory,
-  onCategoryChange,
-}) => {
+const CategoryFilter: React.FC<CategoryFilterProps> = ({ categories, selectedCategory, onCategoryChange }) => {
   const { t, isRTL, language } = useLanguage();
 
   return (
     <div className="w-full">
       <Select value={selectedCategory} onValueChange={onCategoryChange}>
-        <SelectTrigger className="w-full h-12" dir={`${isRTL ? 'rtl' : 'ltr'}`}>
+        <SelectTrigger className="h-12 w-full" dir={`${isRTL ? 'rtl' : 'ltr'}`}>
           <div className="flex items-center gap-2">
             <Filter size={16} />
-            <SelectValue placeholder={t("allCategories")} />
+            <SelectValue placeholder={t('allCategories')} />
           </div>
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="all">{t("allCategories")}</SelectItem>
+          <SelectItem value="all">{t('allCategories')}</SelectItem>
           {categories.map((category) => (
             <SelectItem key={category.id} value={category.id}>
               {category.name[language]}

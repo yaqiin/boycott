@@ -6,8 +6,10 @@ assignees:
 ---
 
 ## **Description**
+
 A clear and concise description of the feature.
 
 ## **Acceptance Criteria**
+
 - [ ] Criteria 1
 - [ ] Criteria 2
