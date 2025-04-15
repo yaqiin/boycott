@@ -12,7 +12,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { t, isRTL, language } = useLanguage();
 
   return (
-    <Card className="card-hover flex w-full flex-col overflow-hidden bg-background" style={{ maxHeight: '400px' }}>
+    <Card
+      className="card-hover flex w-full flex-col overflow-hidden bg-background"
+      style={{ maxHeight: '400px' }}
+    >
       <CardHeader className="flex-none bg-yaqiin-50 py-3 dark:bg-yaqiin-700/10">
         <div className="flex items-center justify-between">
           <div>
@@ -32,7 +35,15 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <ul className={`space-y-2 ${isRTL ? 'pr-4' : 'pl-4'}`}>
             {product.alternatives.map((alt, index) => (
               <li key={index} className="flex items-center justify-between">
-                <a href={alt.link} target="_blank" rel="noopener noreferrer">
+                <a href={alt.link} target="_blank" rel="noopener noreferrer" className="flex gap-2">
+                  <img
+                    src={`https://www.google.com/s2/favicons?domain=${alt.link}`}
+                    className="h-5 w-5 rounded-sm object-cover"
+                    onError={({ currentTarget }) => {
+                      currentTarget.onerror = null; // prevents looping
+                      currentTarget.src = './category-not-found.png';
+                    }}
+                  />
                   <span className="font-medium hover:text-yaqiin-700">{alt.name}</span>
                 </a>
                 <CountryFlag key={index} country={alt.country} />
