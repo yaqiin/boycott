@@ -32,7 +32,14 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <ul className={`space-y-2 ${isRTL ? "pr-4" : "pl-4"}`}>
             {product.alternatives.map((alt, index) => (
               <li key={index} className="flex justify-between items-center">
-                <a href={alt.link} target="_blank" rel="noopener noreferrer">
+                <a href={alt.link} target="_blank" rel="noopener noreferrer" className="flex gap-2">
+                  <img src={`https://logo.clearbit.com/${alt.link}`} 
+                  className=" rounded-sm object-cover" 
+                  onError={({ currentTarget }) => {
+                           currentTarget.onerror = null; // prevents looping
+                           currentTarget.src="./not_found_img.png";
+                            }}  width={20} height={15}
+                            />
                   <span className="font-medium hover:text-yaqiin-700">
                     {alt.name}
                   </span>
