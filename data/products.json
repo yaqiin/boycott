@@ -572,5 +572,46 @@
         "link": "https://sirv.com/"
       }
     ]
+  },
+  {
+    "name": "Google MAPS",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "2GIS",
+        "country_code": "RU",
+        "link": "https://2gis.ae/"
+      }
+    ]
+  },
+  {
+    "name": "Waze",
+    "category_id": "tech",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "2GIS",
+        "country_code": "RU",
+        "link": "https://2gis.ae/"
+      }
+    ]
+  },
+  {
+    "name": "Google MAP API",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Yandex Maps Api",
+        "country_code": "RU",
+        "link": "https://yandex.com/maps-api/"
+      },
+      {
+        "name": "Open Street Map",
+        "country_code": "OSS",
+        "link": "https://github.com/openstreetmap"
+      }
+    ]
   }
 ]
