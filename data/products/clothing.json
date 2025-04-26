@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Puma",
+    "category_id": "clothing",
+    "country_code": "DE"
+  },
+  {
+    "name": "ZARA",
+    "category_id": "clothing",
+    "country_code": "ES"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Carrefour",
+    "category_id": "food-drinks",
+    "country_code": "FR"
+  },
+  {
+    "name": "Coca Cola",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Sprite",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Fanta",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Powerade",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Minute Maid",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Dasani",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Fuze tea",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "McDonalds",
+    "category_id": "food-drinks",
+    "country_code": "US"
+  },
+  {
+    "name": "Nestlé",
+    "category_id": "food-drinks",
+    "country_code": "CH"
+  },
+  {
+    "name": "Osem",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Pepsi",
+    "category_id": "food-drinks",
+    "country_code": "US"
+  },
+  {
+    "name": "Prigat",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Sabra",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "SodaStream",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Starbucks",
+    "category_id": "food-drinks",
+    "country_code": "US"
+  },
+  {
+    "name": "Strauss Group",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Tempo Beverages",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  },
+  {
+    "name": "Tnuva",
+    "category_id": "food-drinks",
+    "country_code": "IL"
+  }
+]

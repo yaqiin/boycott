@@ -2,6 +2,7 @@
 name: Bug
 about: Report a bug to help improve the project
 labels: bug
+type: Bug
 assignees:
 ---
 

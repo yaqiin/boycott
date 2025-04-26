@@ -13,42 +13,29 @@
     }
   },
   {
-    "id": "brands",
+    "id": "food-drinks",
     "name": {
-      "ar": "علامات تجارية",
-      "bn": "ব্র্যান্ড",
-      "en": "Brands",
-      "es": "Marcas",
-      "fr": "Marques",
-      "id": "Merek",
-      "tr": "Markalar",
-      "ur": "برانڈز"
+      "ar": "مأكولات ومشروبات",
+      "bn": "খাবার ও পানীয়",
+      "en": "Food and Drinks",
+      "es": "Comida y Bebidas",
+      "fr": "Nourriture et Boissons",
+      "id": "Makanan dan Minuman",
+      "tr": "Yiyecek ve İçecekler",
+      "ur": "کھانا اور مشروبات"
     }
   },
   {
-    "id": "food",
+    "id": "clothing",
     "name": {
-      "ar": "مأكولات",
-      "bn": "খাবার",
-      "en": "Food",
-      "es": "Comida",
-      "fr": "Nourriture",
-      "id": "Makanan",
-      "tr": "Yiyecek",
-      "ur": "کھانا"
-    }
-  },
-  {
-    "id": "supermarket",
-    "name": {
-      "ar": "سوبر ماركت",
-      "bn": "সুপারমার্কেট",
-      "en": "Supermarket",
-      "es": "Supermercado",
-      "fr": "Supermarché",
-      "id": "Supermarket",
-      "tr": "Süpermarket",
-      "ur": "سوپر مارکیٹ"
+      "ar": "ملابس",
+      "bn": "পোশাক",
+      "en": "Clothing",
+      "es": "Ropa",
+      "fr": "Vêtements",
+      "id": "Pakaian",
+      "tr": "Giysi",
+      "ur": "کپڑے"
     }
   }
 ]

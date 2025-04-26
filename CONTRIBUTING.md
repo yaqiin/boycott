@@ -4,14 +4,13 @@ Thank you for helping improve this project! Choose how you'd like to contribute:
 
 ## 🐛 Report bugs
 
-- Check existing [issues](https://github.com/yaqiin/yaqiin-boycott/issues) first
+- Check existing [issues](https://github.com/yaqiin/boycott/issues) first
 - Open a new issue if it's not reported yet
 - Include steps to reproduce the bug
 
 ## 💡 Suggest Improvements
 
-- Open an [issue](https://github.com/yaqiin/yaqiin-boycott/issues) to discuss
-  your idea
+- Open an [issue](https://github.com/yaqiin/boycott/issues) to discuss your idea
 - We will let you know if it fits the project
 
 ## 🛠️ Development
@@ -22,7 +21,7 @@ Here's how to get started:
 
 - Find an issue to work on (or start a new one)
 - Fork the repo and make your changes
-- Open a [pull request](https://github.com/yaqiin/yaqiin-boycott/pulls) with:
+- Open a [pull request](https://github.com/yaqiin/boycott/pulls) with:
   - Description of your changes
   - Links to any related issues
 
@@ -34,12 +33,10 @@ Here's how to get started:
 
 ### 📊 Data Improvements
 
-- Add boycott products – Edit [data/products.json](data/products.json) to
-  include new items
+- Add boycott products – Edit [data/products](data/products/) files to include
+  new items
 - Update country data – Help maintain [data/countries.json](data/countries.json)
 
 ### 🌍 Translations
 
-- Add new/edit existing language by editing
-  [languageConfig.ts](src/contexts/languageConfig.ts) and
-  [data/countries.json](data/countries.json) file
+- Add new/edit existing language.

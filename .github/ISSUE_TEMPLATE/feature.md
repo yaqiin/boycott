@@ -1,7 +1,8 @@
 ---
 name: Feature
 about: Describe the feature that needs to be implemented
-labels: feature
+labels: enhancement
+type: Feature
 assignees:
 ---
 

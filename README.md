@@ -1,4 +1,4 @@
-# Yaqiin Boycott
+# Boycott
 
 It's a platform designed to promote ethical consumerism by providing
 alternatives to products originating from Israel and the United States. It
@@ -10,10 +10,10 @@ empowers users to make informed purchasing decisions aligned with our values.
 
 ```sh
 # Clone the repository using the project's Git URL.
-git clone https://github.com/yaqiin/yaqiin-boycott.git
+git clone https://github.com/yaqiin/boycott.git
 
 # Navigate to the project directory.
-cd yaqiin-boycott
+cd boycott
 
 # Install the necessary dependencies.
 npm i
