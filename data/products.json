@@ -690,19 +690,19 @@
     ]
   },
   {
-    "name": "Google MAP API",
+    "name": "Google Maps API",
     "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
+        "name": "Open Street Map",
+        "country_code": "OSS",
+        "link": "https://github.com/openstreetmap/"
+      },
+      {
         "name": "Yandex Maps Api",
         "country_code": "RU",
         "link": "https://yandex.com/maps-api/"
-      },
-      {
-        "name": "Open Street Map",
-        "country_code": "OSS",
-        "link": "https://github.com/openstreetmap"
       }
     ]
   }
