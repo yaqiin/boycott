@@ -22,6 +22,98 @@
     ]
   },
   {
+    "name": "Adobe Premiere Pro",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Kdenlive",
+        "country_code": "OSS",
+        "link": "https://kdenlive.org/en/"
+      },
+      {
+        "name": "OpenShot",
+        "country_code": "OSS",
+        "link": "https://www.openshot.org/"
+      },
+      {
+        "name": "Wondershare Filmora",
+        "country_code": "CN",
+        "link": "https://filmora.wondershare.com/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe After Effects",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Natron",
+        "country_code": "OSS",
+        "link": "https://natrongithub.github.io/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Audition",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Audacity",
+        "country_code": "OSS",
+        "link": "https://www.audacityteam.org/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Lightroom",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Darktable",
+        "country_code": "OSS",
+        "link": "https://www.darktable.org/"
+      },
+      {
+        "name": "RawTherapee",
+        "country_code": "OSS",
+        "link": "https://www.rawtherapee.com/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe InDesign",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Scribus",
+        "country_code": "OSS",
+        "link": "https://www.scribus.net/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Acrobat Pro",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Okular",
+        "country_code": "OSS",
+        "link": "https://okular.kde.org/"
+      },
+      {
+        "name": "Foxit PDF Reader",
+        "country_code": "CN",
+        "link": "https://www.foxit.com/pdf-reader/"
+      }
+    ]
+  },
+  {
     "name": "Google Workspace",
     "category_id": "tech",
     "country_code": "US",
