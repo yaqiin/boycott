@@ -433,6 +433,11 @@
         "name": "Supabase",
         "country_code": "OSS",
         "link": "https://supabase.com/"
+      },
+       {
+        "name": "Appwrite",
+        "country_code": "OSS",
+        "link": "https://appwrite.io/"
       }
     ]
   },
