@@ -8,5 +8,195 @@
     "name": "ZARA",
     "category_id": "clothing",
     "country_code": "ES"
+  },
+  {
+    "name": "Adidas",
+    "category_id": "clothing",
+    "country_code": "DE"
+  },
+  {
+    "name": "Bally",
+    "category_id": "clothing",
+    "country_code": "CH"
+  },
+  {
+    "name": "American Eagle",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "Berskha",
+    "category_id": "clothing",
+    "country_code": "ES"
+  },
+  {
+    "name": "Bulgari / Bvlgari",
+    "category_id": "clothing",
+    "country_code": "IT"
+  },
+  {
+    "name": "Caterpillar",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "Celine",
+    "category_id": "clothing",
+    "country_code": "FR"
+  },
+  {
+    "name": "Chanel",
+    "category_id": "clothing",
+    "country_code": "FR"
+  },
+  {
+    "name": "Coty",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "Diesel Frangrances",
+    "category_id": "clothing",
+    "country_code": "IT"
+  },
+  {
+    "name": "Dior / Christian Dior",
+    "category_id": "clothing",
+    "country_code": "FR"
+  },
+  {
+    "name": "DKNY",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "Fendi",
+    "category_id": "clothing",
+    "country_code": "IT"
+  },
+  {
+    "name": "Giorgio Armani Beauty",
+    "category_id": "clothing",
+    "country_code": "IT"
+  },
+  {
+    "name": "Givenchy",
+    "category_id": "clothing",
+    "country_code": "FR"
+  },
+  {
+    "name": "Kenzo",
+    "category_id": "clothing",
+    "country_code": "FR"
+  },
+  {
+    "name": "Loewe",
+    "category_id": "clothing",
+    "country_code": "ES"
+  },
+  {
+    "name": "Louis Vuitton",
+    "category_id": "clothing",
+    "country_code": "FR"
+  },
+  {
+    "name": "Maison Francis Kurkdjian",
+    "category_id": "clothing",
+    "country_code": "FR"
+  },
+  {
+    "name": "Maison Margiela Fragrances",
+    "category_id": "clothing",
+    "country_code": "FR"
+  },
+  {
+    "name": "Marc Jacobs",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "Marks and Spencer / M&S",
+    "category_id": "clothing",
+    "country_code": "GB"
+  },
+  {
+    "name": "Mugler Beauty",
+    "category_id": "clothing",
+    "country_code": "FR"
+  },
+  {
+    "name": "Next",
+    "category_id": "clothing",
+    "country_code": "GB"
+  },
+  {
+    "name": "Prada Beauty",
+    "category_id": "clothing",
+    "country_code": "IT"
+  },
+  {
+    "name": "Ralph Lauren Frangrances",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "River Island",
+    "category_id": "clothing",
+    "country_code": "GB"
+  },
+  {
+    "name": "Skechers",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "Skims",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "STELLA by Stella McCartney",
+    "category_id": "clothing",
+    "country_code": "GB"
+  },
+  {
+    "name": "Ted Baker",
+    "category_id": "clothing",
+    "country_code": "GB"
+  },
+  {
+    "name": "Tiffany & Co.",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "Tom Ford Beauty",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "Tory Burch",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "Valentino Beauty",
+    "category_id": "clothing",
+    "country_code": "IT"
+  },
+  {
+    "name": "Victorias Secret",
+    "category_id": "clothing",
+    "country_code": "US"
+  },
+  {
+    "name": "Viktor & Rolf Beauty",
+    "category_id": "clothing",
+    "country_code": "NL"
+  },
+  {
+    "name": "Yves Saint Laurent Beauty / YSL Beauty",
+    "category_id": "clothing",
+    "country_code": "FR"
   }
 ]
