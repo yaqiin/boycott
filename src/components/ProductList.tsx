@@ -59,7 +59,8 @@ const ProductList = () => {
       results = results.filter(
         (product) =>
           product.name.toLowerCase().includes(searchTermLower) ||
-          product.alternatives?.some((alt) => alt.name.toLowerCase().includes(searchTermLower)),
+          product.alternatives?.some((alt) => alt.name.toLowerCase().includes(searchTermLower)) ||
+          product.country?.name.en.toLowerCase().includes(searchTermLower),
       );
     }
 

@@ -114,6 +114,18 @@
     ]
   },
   {
+    "name": "AppWrite",
+    "category_id": "tech",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Supabase",
+        "country_code": "OSS",
+        "link": "https://supabase.com/"
+      }
+    ]
+  },
+  {
     "name": "Google Workspace",
     "category_id": "tech",
     "country_code": "US",
