@@ -717,5 +717,17 @@
         "link": "https://yandex.com/maps-api/"
       }
     ]
+  },
+  {
+    "name": "Claude",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Kimi",
+        "country_code": "CN",
+        "link": "https://www.kimi.com/en"
+      }
+    ]
   }
 ]
