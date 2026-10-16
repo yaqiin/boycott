@@ -8,6 +8,23 @@
     "name": "Coca Cola",
     "category_id": "food-drinks",
     "country_code": "IL"
+    "alternatives": [
+      {
+        "name": "V7",
+        "country_code": "EG",
+        
+      },
+      {
+        "name": "Spiro Spathis",
+        "country_code": "EG",
+        
+      },
+      {
+        "name": "Sina cola",
+        "country_code": "EG",
+        
+      }
+    ]
   },
   {
     "name": "Sprite",
@@ -43,6 +60,13 @@
     "name": "McDonalds",
     "category_id": "food-drinks",
     "country_code": "US"
+    "alternatives": [
+      {
+        "name": "Bazooka",
+        "country_code": "EG",
+        
+      },
+    ]
   },
   {
     "name": "Nestlé",
